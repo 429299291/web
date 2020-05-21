@@ -33,7 +33,7 @@
         <div class="line line29"></div>
         <div class="line line30"></div>
       </div>
-      <h1 style="font-size: 0;">前端开发和设计师朱东东</h1>
+      <h1 style="position: absolute;">前端开发和设计师朱东东</h1>
       <div class="hero" data-aos="fade-down"
         data-aos-duration="1500">
         <h1 data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="3000" data-aos-delay="2000" >看得越远</h1>
