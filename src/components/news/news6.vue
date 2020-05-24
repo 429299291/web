@@ -4,7 +4,6 @@
     <div id="main">
       <h3>中国“芯”</h3>
       <p class="Author">本文转自：老和山下的小学僧
-        <span>(致敬原著，如有偏差，请联系)</span>
       </p>
     <el-divider><i class="el-icon-star-on"></i></el-divider>
       <img src="http://www.onemachi.com/wp-content/uploads/2018/08/kirin970-1227-696x387.jpg" alt>

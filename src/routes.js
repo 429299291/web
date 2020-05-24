@@ -15,6 +15,7 @@ import news9 from "./components/news/news9.vue";
 import news10 from "./components/news/news10.vue";
 import news11 from "./components/news/news11.vue";
 import news12 from "./components/news/news12.vue";
+import news13 from "./components/news/news13.vue";
 import design from "./components/design.vue";
 import web from "./components/web.vue";
 import wx from "./components/wx.vue";
@@ -47,6 +48,7 @@ export default [
   {path:'/news10',component:news10,name: "news10"},
   {path:'/news11',component:news11,name: "news11"},
   {path:'/news12',component:news12,name: "news12"},
+  {path:'/news13',component:news13,name: "news13"},
   {path:'/design',component:design,name: "design"},
   {path:'/python',component:python,name: "python"},
   {path:'/web',component:web,name: "web"},

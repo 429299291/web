@@ -3,7 +3,7 @@
   <news_header></news_header>
   <div id="main">
     <h3>中介房源照片修图</h3>
-    <p class="Author">本文转自:痴迷好故事<span>(致敬原著，如有偏差，请联系)</span></p>
+    <p class="Author">本文转自:痴迷好故事<span></span></p>
     <el-divider><i class="el-icon-star-on"></i></el-divider>
     <img src="https://s3.ifanr.com/wp-content/uploads/2019/03/46749037faee1470eb11baa86b0b6497213b2582.jpg!720" alt="给中介房源照片修图，正在成为一门新生意">
     <p>不少人第一次租房的时候都踩过不少坑，比如某些中介平台上展示的房源照片跟实际情况严重不符，那种落差可能比卖家秀和买家秀还要大。</p>

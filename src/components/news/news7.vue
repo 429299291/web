@@ -5,7 +5,7 @@
       <h3>女主播：月入十万，我还是很孤独</h3>
       <p class="Author">
         本文转自：GQ实验室©
-        <span>(致敬原著，如有偏差，请联系)</span>
+        <span></span>
       </p>
     <el-divider><i class="el-icon-star-on"></i></el-divider>
       <img

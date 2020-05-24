@@ -4,7 +4,6 @@
     <div id="main">
       <h3>什么算好眼镜</h3>
       <p class="Author">本文转自：资深眼镜人
-        <span>(致敬原著，如有偏差，请联系)</span>
       </p>
     <el-divider><i class="el-icon-star-on"></i></el-divider>
       <img

@@ -383,7 +383,7 @@ export default {
   margin: 0 auto;
   position: absolute;
   width: 100%;
-  top: 55%;  
+  top: 43%;  
   z-index: 999;
   left: 50%;
   padding-top: 15rem;

@@ -5,7 +5,6 @@
     <div id="main">
       <h3>别乱买了，面膜真正的作用就这一个</h3>
       <p class="Author">本文转自：丁香医生
-        <span>(致敬原著，如有偏差，请联系)</span>
       </p>
     <el-divider><i class="el-icon-star-on"></i></el-divider>
       <p>美妆博主孜孜不倦地种草，明星不拍戏的时候似乎也都在敷面膜。有句话说：面膜敷得好，青春飞不了；面膜选得好，男友在高考。</p>

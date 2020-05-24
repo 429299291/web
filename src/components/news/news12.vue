@@ -3,7 +3,7 @@
   <news_header></news_header>
   <div id="main">
     <h3>专赚女人钱，毛利超过茅台：这个行业，到底有多暴利？</h3>
-    <p class="Author">本文转自:正解局<span>(致敬原著，如有偏差，请联系)</span></p>
+    <p class="Author">本文转自:正解局<span></span></p>
     <el-divider><i class="el-icon-star-on"></i></el-divider>
     <img src="../../assets/news/news3.png" alt="">
     <p>有人说，赚钱最快的法子，都写在刑法里。</p>

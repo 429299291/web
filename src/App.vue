@@ -19,6 +19,23 @@ export default {
     
   },
   mounted(){
+    try {
+      var urlhash = window.location.hash;
+      if (!urlhash.match("fromapp")) {
+          let wechat = document.getElementsByClassName('wechat')[0]
+          let qq = document.getElementsByClassName('qq')[0]
+        if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))) {
+          // window.location = "https://www.dongdong66.com/mindex";
+          wechat.style.display = 'none'
+        }else{
+          qq.style.display = 'none'
+          wechat.style.paddingLeft = '65vw'
+        }
+      }
+    }
+    catch (err) {
+    }
+
   },
   computed:{
     
