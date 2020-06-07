@@ -14,15 +14,16 @@
       v-bind:class="{ active1: seen }"
       >
       <el-submenu index="1">
-        <template slot="title">东东简介</template>
-        <el-menu-item index="/profile">个人信息</el-menu-item>
+        <template slot="title">简介</template>
+        <el-menu-item index="/profile">简介</el-menu-item>
         <el-menu-item index="/design">UI design</el-menu-item>
         <el-menu-item index="/web">前端开发</el-menu-item>
         <el-menu-item index="1-3" disabled="">小程序</el-menu-item>
         <el-menu-item index="/seo">SEO</el-menu-item>
         <el-menu-item index="/python">python</el-menu-item>
       </el-submenu>
-      <el-submenu index="2">
+      <!-- <el-menu-item index="/news" class="tree">深度书本</el-menu-item> -->
+      <el-submenu index="2" class="tree">
         <template slot="title">深度书本</template>
         <el-menu-item index="/news">深度书本</el-menu-item>
       </el-submenu>
@@ -33,7 +34,7 @@
         <el-menu-item index="/data_3d">3D大数据展示</el-menu-item>
       </el-submenu>
       
-      <el-submenu index="4" class="tree">
+      <el-submenu index="4">
         <template slot="title" class="active">3D小游戏</template>
         <el-menu-item index="/show">DESTROY PLANETS</el-menu-item>
       </el-submenu>
@@ -198,4 +199,5 @@ export default {
 .wechat i{font-size: 36px;color: #ccc;}
 .wechat_2{position:fixed ;right: 7%;top: 60px;display: none;border: 1px dashed rgba(225, 19, 19, 1)}
 .wechat svg:hover + .wechat_2{top: 0px;display: block;}
+.news{background-color: rgba(0, 0, 0, 0);}
 </style>

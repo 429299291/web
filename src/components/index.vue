@@ -33,14 +33,14 @@
         <div class="line line29"></div>
         <div class="line line30"></div>
       </div>
-      <h1 style="position: absolute;">前端开发和设计师朱东东</h1>
+      <h1 style="position: absolute;">前端开发和设计师朱东东-猪弟弟</h1>
       <div class="hero" data-aos="fade-down"
         data-aos-duration="1500">
         <h1 data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="3000" data-aos-delay="2000" >看得越远</h1>
         <p>So we have to be more humble and stand in awe of</p>
       </div>
           <i class="chevron bottom"></i>
-      <small class="beian"><a href="http://www.beian.miit.gov.cn" target="view_frame"><el-image :src="beian" fit="contain"></el-image>粤ICP备 18068542号</a></small>
+      <small class="beian"><a href="http://www.beian.miit.gov.cn" target="view_frame"><el-image :src="beian" fit="contain"  class='beian_img'></el-image>粤ICP备 18068542号</a></small>
     </div>
   </div>
 </template>
@@ -255,7 +255,7 @@ export default {
   },
   computed: {},
   mounted() {
-    document.title = "朱东东❤"
+    document.title = "猪弟弟❤"
     var scroll = document.getElementsByClassName("hero__scroll")[0];
     var header = document.getElementsByClassName("header")[0];
     // header.onmouseover = function() {
@@ -400,8 +400,8 @@ export default {
   z-index: 999;
   /* display: none; */
 }
-.beian a{color:rgba(200, 200, 200, 0.9);font-size: 14px;}
-.beian .el-image{padding-right: 0.2rem!important;width: 0.9rem!important;}
+.beian a{color:rgba(200, 200, 200, 0.9);font-size: 0.5rem;}
+.beian .el-image{padding-right: 0.2rem!important;width: 0.8rem!important}
 /* .canvas-h3{position: absolute;left: 50%;top: 20%;width: 480px;height: 89px;background: url(../assets/dong.png) 50% 50% no-repeat;transform: translate(-50% ,0);} */
 /*下拉三角*/
 

@@ -1,5 +1,19 @@
 const CompressionPlugin = require("compression-webpack-plugin")
 module.exports = {
+    dev:{
+        open:true,
+        port:8083,
+        proxy:{
+            '/api':{
+                target:'',
+                ws:true,
+                changeOrigin:true,
+                pathRewrite:{
+                    '^/api':''
+                }
+            }
+        }
+    },
 configureWebpack:config=>{
         if(progress.env.NODE_ENV === 'production'){
             return{
