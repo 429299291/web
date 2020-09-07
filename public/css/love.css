@@ -7,7 +7,6 @@
     .el-carousel{margin: 1.5rem 0 0rem!important}
     } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
     
-    #header{background: url(../../static/bigimg/banner5.jpg) 50% 50%;background-size: cover}
     
     h1,h2,h3,h4,h5,h6,p{font-weight:normal;line-height: 1.2;}
     .header-h{color: #f00;font-size: 1.5rem;}

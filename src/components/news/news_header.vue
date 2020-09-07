@@ -21,14 +21,14 @@ export default {
 </script>
 <style scoped>
 @media screen and (max-width: 801px) {
-#header .header_p{font-size: .5rem!important;padding-top: .1rem!important;}
+#header .header_p{font-size: .3rem!important;padding-top: .1rem!important;}
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 @media screen and (max-width: 401px) {
-#header .header_p{font-size: .4rem!important;padding-top: .1rem!important;}
+#header .header_p{font-size: .3rem!important;padding-top: .1rem!important;}
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 @media screen and (max-width: 1024px) {
-#header .header_p{font-size: .6rem!important;padding-top: .2rem!important;}
+#header .header_p{font-size: .3rem!important;padding-top: .2rem!important;}
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
-#header .header_p{font-size: .8rem;color: #fefefe;padding-top: 0.7rem;padding-left: 5rem;}
+#header .header_p{font-size: .3rem;color: #fefefe;padding-top: 0.7rem;padding-left: 5rem;}
 
 </style>

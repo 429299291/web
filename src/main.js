@@ -45,6 +45,9 @@ Vue.use(VueAwesomeSwiper, /* { default global options } */)
 //   }
 // })
 
+import animate  from 'animate.css' // npm install animate.css --save安装，在引入
+// Vue.use(animated)
+
 
 AOS.init();
 AOS.init({

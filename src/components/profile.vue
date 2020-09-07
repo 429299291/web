@@ -96,7 +96,7 @@ export default {
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 @media screen and (max-width: 1081px) {
 #im-container{transform: scale(0.6)!important;}
-.header_inner .action.left, .header_inner .action.right{font-size: 18px;}
+.header_inner .action.left, .header_inner .action.right{font-size: 1rem;}
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 
 

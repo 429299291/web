@@ -14,7 +14,7 @@
   </el-timeline>      
 
 <div class="data-show">
-<p class="main-inner-p"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">深圳出入境智慧大厅指挥中心大数据分析项目</p>
+<p class="main-inner-p"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">参与项目研发部分show</p>
   <el-carousel :interval="4000" type="card" height="29rem" class="main-inner-item">
     <el-carousel-item v-for="item in items" :key="item">
       <!-- <h3>{{ item }}</h3> -->
@@ -45,6 +45,10 @@ export default {
           "/static/bigimg/data2.jpg",
           "/static/bigimg/data3.jpg",
           "/static/bigimg/data4.jpg",
+          "/static/bigimg/data7.jpg",
+          "/static/bigimg/data8.png",
+          "/static/bigimg/data9.png",
+          "/static/bigimg/data10.png",
       ],
       year:2020,
         activities: [{
@@ -79,11 +83,11 @@ export default {
           icon:'el-icon-s-operation',
           timestamp: '3D展示效果，3D智慧楼宇、交通、城市，物联网3D联动，规模系统3D大数据'
         },{
-          content: '数据分析，人工智能，网络爬虫',
+          content: '机器学习，人工智能，网络爬虫',
           type: 'info ',
           size: 'large',
           icon:'el-icon-s-flag',
-          timestamp: '人丑多读书总是没错的...（这里都是想做但是不会的啦）'          
+          timestamp: '人丑多读书总是没错的...'          
         }]      
       }
   },
@@ -247,7 +251,7 @@ export default {
 .main-inner-item{height: 100%;}
 .data-show{height: 100%;width: 100%;overflow: hidden;}
 .el-carousel--horizontal{overflow: inherit}
-#app .main-inner-p{text-align: center;font-size: 2rem;padding: -1rem 0 3rem}
+#app .main-inner-p{text-align: center;padding: -1rem 0 3rem}
 .el-carousel{margin: 1rem 0 3rem}
 .el-carousel__item  img{width: 100%}
 .louyu{padding: 5rem 0;}

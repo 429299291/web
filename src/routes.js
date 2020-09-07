@@ -2,8 +2,7 @@
 export default [
   {path:'/',component:()=>import('./components/index.vue'),name: "index"},
   {path:'/profile',component:()=>import('./components/profile.vue'),name: "profile"},
-  // {path:'/tanxin',component:tanxin,name: "tanxin"},
-  {path:'/liaoxing',component:() =>import('./components/liaoxing.vue'),name: "liaoxing"},
+  {path:'/xixi',component:() =>import('./components/xixi.vue'),name: "xixi"},
   {path:'/news',component:() =>import('./components/news/news.vue'),name: "news"},
   {path:'/news1',component:()=>import('./components/news/news1.vue'),name: "news1"},
   {path:'/news2',component:()=>import('./components/news/news2.vue'),name: "news2"},
@@ -19,6 +18,7 @@ export default [
   {path:'/news12',component:()=>import('./components/news/news12.vue'),name: "news12"},
   {path:'/news13',component:()=>import('./components/news/news13.vue'),name: "news13"},
   {path:'/news14',component:()=>import('./components/news/news14.vue'),name: "news14"},
+  {path:'/news15',component:()=>import('./components/news/news15.vue'),name: "news15"},
   {path:'/design',component:()=>import('./components/design.vue'),name: "design"},
   {path:'/python',component:()=>import('./components/python.vue'),name: "python"},
   {path:'/web',component:()=>import('./components/web.vue'),name: "web"},
@@ -26,8 +26,8 @@ export default [
   {path:'/data',component:()=>import('./components/data.vue'),name: "data"},
   {path:'/data_global',component:()=>import('./components/data_global.vue'),name: "data_global"},
   {path:'/data_3d',component:()=>import('./components/data_3d.vue'),name: "data_3d"},
-  {path:'/show',component:()=>import('./components/show.vue'),name: "show"},
   {path:'/seo',component:()=>import('./components/seo.vue'),name: "seo"},
-  // {path:'/1',component:helloworld,name: "helloworld"},
+  {path:'/wangzhe',component:()=>import('./components/wangzhe.vue'),name: "wangzhe"},
+  {path:'/1',component:()=>import('./components/helloworld.vue'),name: "helloworld"},
   {path:'*',redirect:"/"}
 ]

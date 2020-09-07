@@ -60,7 +60,7 @@ body{width: 100%;}
 .el-menu--horizontal .el-menu--popup{min-width: 4.5rem!important;}
 /* 下拉出来的小导航条 */
 /* .el-menu--horizontal .el-menu .el-menu-item, .el-menu--horizontal .el-menu .el-submenu__title{height: 1.5rem!important;line-height: 1.5rem!important;font-size: .7rem} */
-#app p{font-size: 1rem!important;font-size: 1rem}
+#app p{font-size: 1rem;}
 .tree{background: none!important}
 /* profile 的走马灯的手机高度 */
 .el-carousel__container{height: 6.2rem!important;}
@@ -128,7 +128,6 @@ abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body,
 }
 
 h1,h2,h3,h4,h5,h6{font-weight:normal;line-height: 1.3;text-align: center;font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;}
-#app p{font-size: 1.1rem}
 .header-h{font-size: 2rem;font-weight: bold}
 
 @media screen and (max-width: 801px) {
@@ -259,6 +258,6 @@ table {
     transform:scale(0.7) ;
 }
 .header_inner .left {
-  padding-left: 30%;padding-top: 5%;color: #fefefe;font-size: 24px;
+  padding-left: 30%;color: #fefefe;font-size: 1rem;line-height: 100%;height: 100%;padding-top: 5%;
 }
 </style>

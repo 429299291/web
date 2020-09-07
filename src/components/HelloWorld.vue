@@ -1,18 +1,26 @@
 <template>
-<div class="map">
-  <baidu-map :center="center" :zoom="zoom" @ready="handler" style="height:800px" @click="getClickInfo">
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide"> 2
+          <p class="animate__animated animate__fadeInDown">深圳机场战队，王者荣耀QQ区</p>
 
-    <bm-navigation anchor="BMAP_ANCHOR_TOP_RIGHT"></bm-navigation>
-
-    <bm-map-type :map-types="['BMAP_NORMAL_MAP', 'BMAP_HYBRID_MAP']" anchor="BMAP_ANCHOR_TOP_LEFT"></bm-map-type>
-
-    <bm-geolocation anchor="BMAP_ANCHOR_BOTTOM_RIGHT" :showAddressBar="true" :autoLocation="true"></bm-geolocation>
-
-    <bm-city-list anchor="BMAP_ANCHOR_TOP_LEFT"></bm-city-list>
-  </baidu-map>
-  </div>
+        </div>
+        <div class="swiper-slide">Slide 3</div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+    
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    
+    <!-- 如果需要滚动条 -->
+    <div class="swiper-scrollbar"></div>
+</div>
 </template>
 <script>
+import { Swiper, swiperSlide } from 'vue-awesome-swiper'
 export default {
   name: 'v_header',
   data () {
@@ -23,62 +31,39 @@ export default {
     }
   },
   methods: {
-handler ({BMap, map}) {
-// var point = new BMap.Point(113.841232,22.641364);    
-// map.centerAndZoom(point, 13);    
-// var marker = new BMap.Marker(point);        // 创建标注  
-// map.addOverlay(marker);                     // 将标注添加到地图中 
-
-
-var opts = {    
-    width : 250,     // 信息窗口宽度    
-    height: 100,     // 信息窗口高度    
-    title : "Hello"  // 信息窗口标题   
-}    
-var infoWindow = new BMap.InfoWindow("World", opts);  // 创建信息窗口对象    
-map.openInfoWindow(infoWindow, map.getCenter());      // 打开信息窗口
-
-
-
-var driving = new BMap.TransitRoute(map, { 
-    renderOptions: {
-        map: map, 
-        autoViewport: true 
-} 
-});
-var start = new BMap.Point(113.841232, 22.641364);
-var end = new BMap.Point(114.068543,22.541628);
-driving.search(start, end);
-
-
-
-
-	map.enableScrollWheelZoom(true)
-	// var marker = new BMap.Marker(113.841232,22.641364);        // 创建标注    
-	// map.addOverlay(marker); 
-// 	this.center.lng =113.841232
-//     this.center.lat =22.641364
-//     this.zoom =this.zoom
-},
-
-    getClickInfo (e) {
-	// console.log(e.point.lng)
-	// console.log(e.point.lat)
-	this.center.lng = e.point.lng
-    this.center.lat = e.point.lat
-    }
-
 
   },
 components: {
 },
   mounted () {
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'vertical', // 垂直切换选项
+    loop: true, // 循环模式选项
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+    // 如果需要滚动条
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })        
+
+
 
   }}
 </script>
 <style scoped>
-  .bm-view {
-	width:100%;
-    height:300px;
-  }
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}  
 </style>

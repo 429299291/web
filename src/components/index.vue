@@ -33,20 +33,18 @@
         <div class="line line29"></div>
         <div class="line line30"></div>
       </div>
-      <h1 style="position: absolute;">前端开发和设计师朱东东-猪弟弟</h1>
+      <h1 style="position: absolute;">朱东东-猪弟弟</h1>
       <div class="hero" data-aos="fade-down"
         data-aos-duration="1500">
-        <h1 data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="3000" data-aos-delay="2000" >看得越远</h1>
-        <p>So we have to be more humble and stand in awe of</p>
+        <h1 class="animate__animated animate__bounce" >看得越远</h1>
+        <p>So have to be more humble and stand in awe of</p>
       </div>
           <i class="chevron bottom"></i>
       <small class="beian"><a href="http://www.beian.miit.gov.cn" target="view_frame"><el-image :src="beian" fit="contain"  class='beian_img'></el-image>粤ICP备 18068542号</a></small>
     </div>
   </div>
 </template>
-
 <script>
-import remoteLoad from '../js/vuejs/remoteLoad'
 export default {
   name: "indexq",
   data() {
@@ -255,26 +253,8 @@ export default {
   },
   computed: {},
   mounted() {
-    document.title = "猪弟弟❤"
-    var scroll = document.getElementsByClassName("hero__scroll")[0];
-    var header = document.getElementsByClassName("header")[0];
-    // header.onmouseover = function() {
-    //   scroll.style.top = "-10%";
-    // };
-    // header.onmouseout = function() {
-    //   scroll.style.top = "0%";
-    // };
-    document.body.height = document.body.clientWidth
-    /*百度统计*/
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?d203c417657377868eabea2f9e0276c5";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-
-  this.threeyun()
+    document.title = "猪弟弟❤";
+    this.threeyun()
   }
 };
 </script>
@@ -391,7 +371,7 @@ export default {
   mix-blend-mode: var(--mix-blend-mode);
 }
 .hero h1{font-weight:900;}
-.hero p{padding-top: 20px;font-size: 40px!important;font-weight: bold;}
+.hero p{padding-top: 20px;font-size: 2rem;font-weight: bold;width: 100%;}
 .beian {
   position: absolute;
   left: 50%;
@@ -419,7 +399,7 @@ export default {
   top: 4%;
   z-index: 88;
   transition: all 0.5s;
-  transform: translate(-50%, 0%);
+  /* transform: translate(-50%, 0%); */
   text-transform: uppercase;
 }
 
