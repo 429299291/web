@@ -19,7 +19,7 @@ export default {
     if (document.documentElement.clientWidth<1000){
         this.$message({
           showClose: true,
-          message: '电脑看起来更好哟！',
+          message: '电脑看起来更好！',
           type: 'warning',
         });
 }  
@@ -138,7 +138,7 @@ let counter = 0;
 c2.width = c3.width = window.innerWidth;
 c2.height = c3.height = window.innerHeight;
 ctx1.fillStyle = '#000';
-const text = 'google,百度,搜狗,360,Bing搜索"朱东东"';
+const text = 'google,百度,搜狗,Bing搜索"猪弟弟"';
 let textWidth = 99999999;
 
 while (textWidth > window.innerWidth) {

@@ -1,5 +1,5 @@
 <template>
-  <div class="header" @mouseenter="headerover()" @mouseleave="headerout()">
+  <div class="header">
     <div class="logo" data-aos="zoom-in" data-aos-duration="2500">
       </div>
     <el-menu
@@ -11,12 +11,11 @@
       background-color="rgba(60,120,160,0.3)"
       active-text-color=" rgba(52, 252, 105, 0.7)"
       @select="handleSelect"
-      v-bind:class="{ active1: seen }"
       >
       <el-menu-item index="/index">首页</el-menu-item>
       <el-submenu index="2">
         <template slot="title">简介</template>
-        <el-menu-item index="/profile">简介</el-menu-item>
+        <el-menu-item index="/profile">小爱好</el-menu-item>
         <el-menu-item index="/design">UI design</el-menu-item>
         <el-menu-item index="/web">前端开发</el-menu-item>
         <el-menu-item index="1-3" disabled="">小程序</el-menu-item>
@@ -25,14 +24,14 @@
       </el-submenu>
       <!-- <el-menu-item index="/news" class="tree">深度书本</el-menu-item> -->
       <el-submenu index="3" class="tree">
-        <template slot="title">深度书本</template>
-        <el-menu-item index="/news">深度书本</el-menu-item>
+        <template slot="title">资讯</template>
+        <el-menu-item index="/news">深度好文</el-menu-item>
       </el-submenu>
       <el-submenu index="4">
-        <template slot="title">大数据展</template>
-        <el-menu-item index="/data">大数据展示</el-menu-item>
-        <el-menu-item index="/data_global">大数据 + 地图</el-menu-item>
-        <el-menu-item index="/data_3d">3D大数据展示</el-menu-item>
+        <template slot="title">大数据</template>
+        <el-menu-item index="/data">base</el-menu-item>
+        <el-menu-item index="/data_global">map</el-menu-item>
+        <el-menu-item index="/data_3d">3D data</el-menu-item>
       </el-submenu>
     
       <div class="contact">
@@ -55,19 +54,12 @@ export default {
   data() {
     return {
       msg: "header",
-      seen:true,
     };
   },
   methods:{
     handleSelect(key, keyPath) {
         // console.log(key, keyPath);
       }  ,
-    headerover(){
-      this.seen = true
-    }, 
-    headerout(){
-      this.seen = false
-    }   ,
     // logo(){
     //   var header = document.getElementsByClassName('header')[0]
     //   var nav = document.getElementsByClassName('nav')[0]
@@ -93,14 +85,14 @@ export default {
 .header{height: 2.2rem!important;}
 .nav li{height: 2.2rem!important;padding: 0 .5rem;line-height: 2.2rem;}
 .header .el-submenu__title{height: 100%!important;line-height: 2.2rem!important;}
-.nav{padding-left:9%!important;background-color: rgba(60,120,160,0.3)!important;display: none;}
+.nav{padding-left:1.7rem!important;background-color: rgba(60,120,160,0.3)!important;}
 /* #app .nav{padding-left:2rem;  background-color: rgba(225, 190, 190, 0.8)!important;}.el-menu--popup a .el-menu-item{border-bottom: none;background-color: rgba(225, 190, 190, 0.8)!important} */
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 
 .along{position:absolute;left: 0;top: 0;}
-.header{width: 100%;height: 3.75rem;position: fixed;z-index: 98;overflow: hidden;}
-.nav{transform: translateY(-3.75rem);transition: all 1s;padding-left: 3.5%;z-index: 99;background-color: rgba(60,120,160,0.3)!important;position: relative;height: 100%;}
-.header:hover .nav{display: block;transform: translateY(0);display: block;}
+.header{width: 100%;height: 3.75rem;position: fixed;z-index: 9998;overflow: hidden;}
+.nav{padding-left:3.75rem;z-index: 99;background-color: rgba(60,120,160,0.3)!important;position: relative;height: 100%;}
+/* .header:hover .nav{display: block;transform: translateY(0);display: block;} */
 /*nav*/
 .nav > li {
   float: left;
@@ -182,7 +174,7 @@ export default {
 }
 .header:hover .logo{transform:rotate(30deg);}
 /* 去掉单个菜单的对不齐问题 */
-.el-menu--horizontal>.el-menu-item{border-bottom: none;background-color: rgba(0, 0, 0, .3)!important}
+.el-menu--horizontal>.el-menu-item{border-bottom: none;}
 /* .active{background-color: rgba(0,0,0,0)!important;} */
 .el-submenu__title{background-color: rgba(0,0,0,0)!important;}
 .active:hover{background-color: rgba(225, 19, 19, 0.3)!important; }
@@ -193,8 +185,8 @@ export default {
 .contact{display: flex;justify-content: space-around;flex-direction:wrap;height:inherit;}
 .wechat{margin-left: 1.3rem;display: flex;flex-direction: column;justify-content: center;}
 .qq{height: 100%;display: flex;flex-direction: column;justify-content: center;}
-.wechat i{font-size: 36px;color: #ccc;}
-.wechat_2{position:fixed ;right: 7%;top: 60px;display: none;border: 1px dashed rgba(225, 19, 19, 1)}
-.wechat svg:hover + .wechat_2{top: 0px;display: block;}
+.wechat i{font-size: 36px;color: #ccc;width: 100%;}
+.wechat_2{position:fixed ;right: 15%;top: 60px;display: none;border: 1px dashed rgba(225, 19, 19, 1)}
+.wechat :hover + .wechat_2{top: 0px;display: block;}
 .news{background-color: rgba(0, 0, 0, 0);}
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="data_global">
-        <span id="forkongithub"><a href="https://dongdong66.com">Fork me on index</a></span>
+        <span id="forkongithub"><a href="https://zhudd.vip">Fork me on index</a></span>
         <div id="container" style="height: 100%"></div>
     </div>
 </template>

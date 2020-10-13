@@ -32,19 +32,19 @@
   <div class="main-inner">
     <div class="main-one">
       <div class="main-pic" style="width: 186px;"><img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/profile/profile10.gif" alt="干什么" style="width:180px"></div>
-        <p class="main-text">很久很久以前...</p>
+        <p class="main-text">恰到好处的幽默是智慧</p>
     </div>
     <div class="main-one">
       <div class="main-pic"><img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/profile/profile6.png" alt="前端朱东东"></div>
-        <p class="main-text">有一只小白兔</p>
+        <p class="main-text">对大自然的欣赏</p>
     </div>
     <div class="main-one">
       <div class="main-pic"><img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/profile/profile4.jpg" alt="工作"></div>
-        <p class="main-text">在照镜子的时候</p>
+        <p class="main-text">运动是个好东西</p>
     </div> 
     <div class="main-one">
       <div class="main-pic"><img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/profile/profile7.jpg" alt="开发"></div>
-        <p class="main-text">才发现自己是黑白的...</p>
+        <p class="main-text">随便写点感叹...</p>
     </div>
     <!-- <div class="main-one">
       <div class="main-pic" data-aos-easing="ease-out-back" data-aos="fade-up-right" data-aos-delay="500" data-aos-duration="1000" ><img src="../assets/wo.jpg" style="width:180px" alt="这不是朱东东"></div>

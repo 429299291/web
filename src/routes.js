@@ -19,6 +19,7 @@ export default [
   {path:'/news13',component:()=>import('./components/news/news13.vue'),name: "news13"},
   {path:'/news14',component:()=>import('./components/news/news14.vue'),name: "news14"},
   {path:'/news15',component:()=>import('./components/news/news15.vue'),name: "news15"},
+  {path:'/news16',component:()=>import('./components/news/news16.vue'),name: "news16"},
   {path:'/design',component:()=>import('./components/design.vue'),name: "design"},
   {path:'/python',component:()=>import('./components/python.vue'),name: "python"},
   {path:'/web',component:()=>import('./components/web.vue'),name: "web"},

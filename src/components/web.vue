@@ -185,7 +185,7 @@ export default {
             name:'使用年限',
             type:'line',
             yAxisIndex: 1,
-            data:[this.$store.getters.html, this.$store.getters.css3, this.year-2013.5,this.year-2015,this.year-2016,this.year-2012,this.year-2014,this.year-2017,this.year-2016,this.year-2015,this.year-2013,this.year-2014.5,this.year-2015,this.year-2016,this.year-2015,this.year-2015,this.year-2014,this.year-2017,this.year-2019,this.year-2016.5,this.year-2016,this.year-2017,this.year-2016.5,this.year-2012,this.year-2015]
+            data:[this.$store.getters.html, this.$store.getters.css3, this.year-2013.5,this.year-2015,this.year-2016,this.year-2012,this.year-2014,this.year-2017,this.year-2016,this.year-2015,this.year-2013,this.year-2014.5,this.year-2015,this.year-2016,this.year-2015,this.year-2015,this.year-2014,this.year-2017,this.year-2019,this.year-2016.5,this.year-2016,this.year-2017,this.year-2016.5,this.year-2012,this.year-2015,this.year-2017]
         }
     ],
         visualMap: {
@@ -229,7 +229,7 @@ export default {
     if (document.documentElement.clientWidth<1000){
         this.$message({
           showClose: true,
-          message: '电脑看起来更好哟！',
+          message: '电脑看起来更好！',
           type: 'warning',
         });
 }  

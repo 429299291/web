@@ -32,5 +32,4 @@ export default {
 </script>
 <style scoped>
 @import "../../../public/css/news.css";
-.video{width: 100%;height: 100%;}
 </style>
