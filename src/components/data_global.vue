@@ -343,9 +343,6 @@
     }
 </script>
 <style scoped>
-    /* @import 'https://js.arcgis.com/3.15/esri/css/esri.css'; */
-
-
     .data_global {
         height: 100vh;
     }

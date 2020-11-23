@@ -193,14 +193,6 @@ table {
 }
 .is-horizontal{display: none;}
 .el-divider__text{background-color: transparent!important;}
-/* 3d云 */
-.threeyundom{background-image: url('../static/bigimg/3dyun.png')!important;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-}
-/* .index{position: absolute;width: 100%;height: 100%;} */
-.threeyundom{position: absolute;}     
 
 
 

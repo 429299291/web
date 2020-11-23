@@ -15,7 +15,7 @@
       <el-menu-item index="/index">首页</el-menu-item>
       <el-submenu index="2">
         <template slot="title">简介</template>
-        <el-menu-item index="/profile">小爱好</el-menu-item>
+        <el-menu-item index="/profile">小日记</el-menu-item>
         <el-menu-item index="/design">UI design</el-menu-item>
         <el-menu-item index="/web">前端开发</el-menu-item>
         <el-menu-item index="1-3" disabled="">小程序</el-menu-item>
@@ -60,18 +60,7 @@ export default {
     handleSelect(key, keyPath) {
         // console.log(key, keyPath);
       }  ,
-    // logo(){
-    //   var header = document.getElementsByClassName('header')[0]
-    //   var nav = document.getElementsByClassName('nav')[0]
-    //   var scrollT = document.body.scrollTop || document.documentElement.scrollTop
-    //   if(scrollT<20){
-    //     this.seen = true
-    //   }else{
-    //     this.seen = false
-    //   }
-    // }   ,
-    
-    
+
   },
   mounted(){
       // window.addEventListener('scroll',this.logo)

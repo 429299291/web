@@ -30,10 +30,6 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 
-import VueAwesomeSwiper from 'vue-awesome-swiper'
-import 'swiper/dist/css/swiper.css'
-Vue.use(VueAwesomeSwiper, /* { default global options } */)
-
 // const store = new Vuex.Store({
 //   state: {
 //     count: 0
@@ -44,9 +40,6 @@ Vue.use(VueAwesomeSwiper, /* { default global options } */)
 //     }
 //   }
 // })
-
-import animate  from 'animate.css' // npm install animate.css --save安装，在引入
-// Vue.use(animated)
 
 
 AOS.init();

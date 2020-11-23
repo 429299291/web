@@ -1,13 +1,12 @@
 <template>
-  <div class="news6">
+  <div class="">
   <news_header></news_header>
   <div id="main">
-    <h3>中介房源照片修图</h3>
-    <p class="Author">本文转自:痴迷好故事<span></span></p>
+    <h3>穷人家的孩子和有钱人家的孩子到底相差了什么？</h3>
+    <p class="Author">本文转自:狮子座 2020-1-16<span></span></p>
     <el-divider><i class="el-icon-star-on"></i></el-divider>
-    <img src="" alt="">
-    <p></p>
-    <span>▲某中介</span>
+    <video autoplay="autoplay" src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/video/qiongfuhaizi.mp4" class="video" controls></video>
+    <!-- <span>▲</span> -->
 
   </div>
 </div>
@@ -20,8 +19,7 @@ export default {
   name: 'news8',
   data () {
     return {
-      msg: 'news5',
-      imgUrl:'../../assets/classic3.png'
+      msg: 'news13',
     }
   },
   components:{
@@ -34,5 +32,4 @@ export default {
 </script>
 <style scoped>
 @import "../../../public/css/news.css";
-
 </style>

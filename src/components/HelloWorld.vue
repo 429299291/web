@@ -17,7 +17,6 @@
 </template>
 
 <script>
-import { Swiper, swiperSlide } from 'vue-awesome-swiper'
 export default {
   name: 'v_header',
   data () {

@@ -860,7 +860,7 @@ p{font-size: .9rem!important}
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 
 h1{font-size: 2rem;color: #fff;line-height:70px;}
-p{font-size: 1.8rem;color: #fff;text-align: center;line-height: 30px;}
+p{font-size: 1.5rem;color: #fff;text-align: center;line-height: 30px;}
 
 .design {
   margin: 0;

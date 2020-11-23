@@ -2,9 +2,10 @@
   <div class="">
   <news_header></news_header>
   <div id="main">
-    <h3>神童真的那么神吗？</h3>
+    <h3>3Q大战，垄断之王争夺战</h3>
+    <p class="Author">本文转自:冲浪普拉斯 2020-10-15<span></span></p>
     <el-divider><i class="el-icon-star-on"></i></el-divider>
-    <video autoplay="autoplay" src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/video/%E7%A5%9E%E7%AB%A5.mp4" class="video" controls></video>
+    <video autoplay="autoplay" src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/video/3q.mp4" class="video" controls></video>
     <!-- <span>▲</span> -->
 
   </div>

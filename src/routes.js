@@ -1,9 +1,12 @@
 
+import Index from './components/index.vue'
+import Profile from './components/profile.vue'
+import News from './components/news/news.vue'
 export default [
-  {path:'/',component:()=>import('./components/index.vue'),name: "index"},
-  {path:'/profile',component:()=>import('./components/profile.vue'),name: "profile"},
+  {path:'/',component:Index,name: "index"},
+  {path:'/profile',component:Profile,name: "profile"},
   {path:'/xixi',component:() =>import('./components/xixi.vue'),name: "xixi"},
-  {path:'/news',component:() =>import('./components/news/news.vue'),name: "news"},
+  {path:'/news',component:News,name: "news"},
   {path:'/news1',component:()=>import('./components/news/news1.vue'),name: "news1"},
   {path:'/news2',component:()=>import('./components/news/news2.vue'),name: "news2"},
   {path:'/news3',component:()=>import('./components/news/news3.vue'),name: "news3"},
@@ -20,6 +23,16 @@ export default [
   {path:'/news14',component:()=>import('./components/news/news14.vue'),name: "news14"},
   {path:'/news15',component:()=>import('./components/news/news15.vue'),name: "news15"},
   {path:'/news16',component:()=>import('./components/news/news16.vue'),name: "news16"},
+  {path:'/news17',component:()=>import('./components/news/news17.vue'),name: "news17"},
+  {path:'/news18',component:()=>import('./components/news/news18.vue'),name: "news18"},
+  {path:'/news19',component:()=>import('./components/news/news19.vue'),name: "news19"},
+  {path:'/news20',component:()=>import('./components/news/news20.vue'),name: "news20"},
+  {path:'/news21',component:()=>import('./components/news/news21.vue'),name: "news21"},
+  {path:'/news22',component:()=>import('./components/news/news22.vue'),name: "news22"},
+  {path:'/news23',component:()=>import('./components/news/news23.vue'),name: "news23"},
+  {path:'/news24',component:()=>import('./components/news/news24.vue'),name: "news24"},
+  {path:'/news25',component:()=>import('./components/news/news25.vue'),name: "news25"},
+  {path:'/news26',component:()=>import('./components/news/news26.vue'),name: "news26"},
   {path:'/design',component:()=>import('./components/design.vue'),name: "design"},
   {path:'/python',component:()=>import('./components/python.vue'),name: "python"},
   {path:'/web',component:()=>import('./components/web.vue'),name: "web"},

@@ -41,64 +41,11 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-slide">
-            <!-- <p>数据不完全对，有疑问找队长修改</p> -->
-            <div id="circleChart" style="height: 600px;"></div>
-        </div>
-        <div class="swiper-slide">
-            <!-- <h3 class="animate__animated animate__bounce">逐步完善</h3>
-            <p class="animate__animated animate__bounce"></p> -->
-            <el-table
-            :data="tableData"
-            class="table_wangzhe"
-            style="width: 100%">
-            <el-table-column
-                prop="name"
-                width="120px"
-                label="王者名">
-            </el-table-column>
-            <!-- <el-table-column
-                prop="address"
-                label="说明">
-            </el-table-column> -->
-            <el-table-column
-                prop="five"
-                align="center"
-                label="五胜">
-            </el-table-column>
-            <el-table-column
-                prop="six"
-                align="center"
-                label="六胜">
-            </el-table-column>
-            <el-table-column
-                prop="date"
-                align="center"
-                label="红包第一">
-            </el-table-column>
-            </el-table>
-
-        </div>
-        <!-- <div class="swiper-slide">
-            <h3 class="animate__animated animate__bounce">战队规则</h3>
-            <p>★年底贡献最高（根据战队赛，红包数）送周年限定，多带带小胸弟</p>
-            <p>★战队赛6胜：零食/20红包+副队+群管理（累计三次送活动皮肤任选，可以过百,需都是战队成员）</p>
-            <p>★战队赛5胜：辣条/薯片/鱼仔+领队</p>
-            <p>★战队发红包：第一副队，前三给精英</p>
-            <p>★活跃不够2000/骂人～踢</p>
-            <p>★活跃3000，免费送电影（会员收费/爱情动作片/海外禁播）都行</p>
-            <p>★每周投票一次颜值最高，给领队+群管理</p>
-            <p>不要没事搞事情，要怼就怼群主，在线卑微</p>
-
-        </div>
- -->
     </div>
-    <div class="swiper-pagination"></div>
 </div>
 </template>
 
 <script>
-import { Swiper, swiperSlide } from 'vue-awesome-swiper'
 import echarts from "echarts";
 export default {
   name: "datad",
@@ -273,76 +220,13 @@ export default {
   },
   mounted() {
     document.title = "❤深圳机场战队内部数据分析系统"
-    var swiper = new Swiper('.wangzhe',{
-      // pagination: {
-      //       el: '.swiper-pagination',
-      //       dynamicBullets: true,
-      //   },
-      direction: 'vertical',
-      // mousewheel: true,
 
-})
 
 
     this.drawecharts();
-
-  　var myswiper = new Swiper(".swiper-container", {
-      effect : 'cube',
-      cubeEffect: {
-        slideShadows: true,
-        shadow: true,
-        shadowOffset: 100,
-        shadowScale: 0.6
-      },
-      loop : true,
-　　});
-
   },
   components: {
-    Swiper,swiperSlide
+    
   }
 };
 </script>
-<style scoped lang = 'stylus'>
-.wangzhe 
-    width 100vw
-    height  100vh
-    background-color #ffffff
-    background-image url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2380F'/%3E%3Cstop offset='1' stop-color='%23f40'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='24' height='24' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23ffffff' cx='12' cy='12' r='12'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.1'/%3E%3C/svg%3E")
-    background-attachment fixed
-    background-size cover
-    .small
-      height 1rem
-      line-height 1rem
-      font-size 1rem
-    .img_text
-        line-height 2rem
-        font-size 1.5rem
-        padding-top 3rem
-    h3 
-        color #fff
-        font-size 1rem
-        line-height 2rem
-        height 2rem
-    p 
-        color #ccc
-        line-height 1rem
-        padding 0 1rem
-        font-size 0.8rem
-    .swiper-container
-        max-width: 400px;
-        width: auto;
-        padding 4rem 0 40px;
-        overflow hidden;
-        transform translate(0,-50px)
-        .swiper-slide 
-            img
-                max-height: 400px;
-                width: 100%;
-                overflow hidden;
-        .swiper-p
-            font-size .9rem!important
-            text-align center
-    .table_wangzhe
-        margin-top 2rem
-</style>

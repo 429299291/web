@@ -1,7 +1,7 @@
 <template>
 <div id="header">
       <div class="header_inner">
-        <a class="action left" data-aos="fade-down" data-aos-duration="1500">深度书本<p class="header_p" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">—有深度的好内容</p></a>
+        <a class="action left" data-aos="fade-down" data-aos-duration="1500">深度好文<p class="header_p" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">—有深度的内容搬运工</p></a>
         <div class="middle" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000" aos-duration="2000" data-aos-delay="2000">
           <a class="middle_child"></a>
         </div>
