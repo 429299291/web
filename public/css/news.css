@@ -3,11 +3,11 @@
 #main{width: 97%!important;padding-bottom: 0.5rem!important}
 #main .Author{font-size: .7rem!important;}
 #main .Author span{font-size: .5rem!important}
-#main h3{line-height: 1.1rem!important; font-size: 1.3rem!important;padding: 1rem 0 .5rem 0!important;}
+#main h3{line-height: 1.5rem!important; font-size: 1.1rem!important;padding: 1rem 0 .5rem 0!important;}
     } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
 
 #main{width: 70%;margin: 0 auto;padding-bottom: 1rem;min-height: 100vh;}
-#main h3{ font-size: 2.5rem;
+#main h3{ font-size: 2rem;
     line-height: 1.5em;
     padding: 2rem 0 1rem 0;
     text-align: center;

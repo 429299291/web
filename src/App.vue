@@ -169,7 +169,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	/* line-height: 1; */
   height:100%;
 }
 ol, ul {

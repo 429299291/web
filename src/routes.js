@@ -33,6 +33,7 @@ export default [
   {path:'/news24',component:()=>import('./components/news/news24.vue'),name: "news24"},
   {path:'/news25',component:()=>import('./components/news/news25.vue'),name: "news25"},
   {path:'/news26',component:()=>import('./components/news/news26.vue'),name: "news26"},
+  {path:'/news27',component:()=>import('./components/news/news27.vue'),name: "news27"},
   {path:'/design',component:()=>import('./components/design.vue'),name: "design"},
   {path:'/python',component:()=>import('./components/python.vue'),name: "python"},
   {path:'/web',component:()=>import('./components/web.vue'),name: "web"},
