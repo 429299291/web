@@ -224,10 +224,11 @@ table {
 }
 .header_inner .middle {
     width: 80px;
-    position: absolute;
+    position: fixed;
     height: 80px;
-    left: 50%;
-    top: 35%;
+    right: 3%;
+    top: 10%;
+    z-index: 999;
 }
 .header_inner .middle_child {
     width: 80px;
@@ -250,6 +251,6 @@ table {
     transform:scale(0.7) ;
 }
 .header_inner .left {
-  padding-left: 30%;color: #fefefe;font-size: 1rem;line-height: 100%;height: 100%;padding-top: 5%;
+  padding-left: 30%;color: #fefefe;font-size: 1rem;line-height: 100%;height: 100%;padding-top: 10%;
 }
 </style>
