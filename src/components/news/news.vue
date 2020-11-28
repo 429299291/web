@@ -5,7 +5,7 @@
   <div id="main">
     <dl class="classiclist">
      <router-link to="/news6" class="classiclist-a">
-      <dd class="classiclist-img"><img src="../../assets/news/chip1.jpg" alt="看看中国“芯”"></dd>
+      <dd class="classiclist-img"><img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/video/%E4%B8%AD%E5%9B%BD%E8%8A%AF.jpg" alt="看看中国“芯”"></dd>
       <dt class="classiclist-h"><p>中国“芯”</p><svg t="1589599648395" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3518" width="30" height="30"><path d="M494.344 222.896h35.31v112.552h-35.31zM494.344 653.242h35.31v105.932h-35.31z" fill="#C83741" p-id="3519"></path><path d="M437.104 705.656c-18.086 0-36.174-6.878-49.948-20.654-27.518-27.55-27.518-72.344 0-99.862l24.966-24.982-49.932-49.932-24.966 24.966c-27.568 27.568-72.344 27.536-99.88 0-27.518-27.55-27.518-72.344 0-99.862 27.536-27.536 72.312-27.568 99.88 0l24.966 24.966 49.932-49.932-24.966-24.982c-27.536-27.536-27.536-72.326 0-99.862 27.536-27.526 72.312-27.542 99.88 0L512 310.482l24.966-24.966c27.568-27.542 72.344-27.526 99.88 0 27.536 27.536 27.536 72.326 0 99.862L611.88 410.36l49.932 49.932 24.966-24.966c27.568-27.568 72.344-27.536 99.88 0 27.518 27.518 27.518 72.312 0 99.862-27.518 27.55-72.326 27.55-99.88 0l-24.966-24.966-49.932 49.932 24.966 24.982c27.518 27.518 27.518 72.312 0 99.862-27.518 27.55-72.326 27.55-99.88 0L512 660.036 487.032 685c-13.772 13.776-31.86 20.656-49.928 20.656z m0-120.518l-24.982 24.966c-13.758 13.758-13.758 36.156 0 49.932 13.81 13.776 36.206 13.742 49.948 0l24.966-24.966-49.932-49.932z m99.862 49.932l24.966 24.966c13.758 13.776 36.188 13.742 49.948 0 13.758-13.776 13.758-36.174 0-49.932l-24.982-24.966-49.932 49.932z m-74.898-74.914L512 610.102l49.932-49.948L512 510.226l-49.932 49.93z m74.898-74.896l49.93 49.932 49.948-49.932-49.948-49.932-49.93 49.932z m-149.812 0l49.948 49.932 49.932-49.932-49.932-49.932-49.948 49.932z m299.622 0l24.966 24.966c13.724 13.742 36.156 13.758 49.948 0 13.758-13.776 13.758-36.174 0-49.932-13.776-13.776-36.206-13.742-49.948 0l-24.966 24.966z m-424.468 24.966c13.81 13.758 36.206 13.758 49.948 0l24.966-24.966-24.966-24.966c-13.758-13.758-36.188-13.776-49.948 0-13.758 13.758-13.758 36.154 0 49.932z m199.76-99.864L512 460.296l49.932-49.932L512 360.416l-49.932 49.946z m74.898-74.914l49.93 49.932 24.982-24.966c13.758-13.758 13.758-36.174 0-49.932-13.758-13.776-36.188-13.802-49.948 0l-24.964 24.966z m-99.862-35.292c-9.052 0-18.104 3.44-24.982 10.328-13.758 13.758-13.758 36.174 0 49.932l24.982 24.966 49.932-49.934-24.966-24.966a35.2 35.2 0 0 0-24.966-10.326z" fill="#FF4B4B" p-id="3520"></path><path d="M511.998 776.828m-35.31 0a35.31 35.31 0 1 0 70.62 0 35.31 35.31 0 1 0-70.62 0Z" fill="#FFCF65" p-id="3521"></path><path d="M512.058 812.138h-0.116c-19.926 0-36.524 15.274-38.18 35.13l-13.134 157.61c-0.858 10.296 7.262 19.122 17.594 19.122h67.556c10.328 0 18.452-8.828 17.594-19.12l-13.134-157.61c-1.656-19.858-18.256-35.132-38.18-35.132zM499.514 234.688l-45.652-45.652a17.656 17.656 0 0 1 0-24.968l45.652-45.652a17.656 17.656 0 0 1 24.968 0l45.652 45.652a17.656 17.656 0 0 1 0 24.968l-45.652 45.652a17.656 17.656 0 0 1-24.968 0z" fill="#FF4B4B" p-id="3522"></path><path d="M529.654 57.862V17.656c0-9.75-7.896-17.656-17.656-17.656s-17.656 7.906-17.656 17.656v40.208c-10.51 6.116-17.656 17.374-17.656 30.414 0 19.5 15.81 35.31 35.31 35.31s35.31-15.81 35.31-35.31c0.004-13.04-7.142-24.298-17.652-30.416z" fill="#C83741" p-id="3523"></path></svg></dt>
      </router-link>
     </dl>    
@@ -53,7 +53,7 @@
     </dl>    
     <dl class="classiclist">
      <router-link to="/news16" class="classiclist-a">
-      <dd class="classiclist-img"><img src="../../assets/news/wanke.jpg" alt="宝能万科之争，中国第一股权争夺战"></dd>
+      <dd class="classiclist-img"><img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/video/%E4%B8%87%E7%A7%91.jpg" alt="宝能万科之争，中国第一股权争夺战"></dd>
       <dt class="classiclist-h">宝能万科之争，中国第一股权争夺战 <div class='classiclist-img2'><svg t="1602994893312" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2706" width="20" height="20"><path d="M64 511.99984C64 264.584462 264.584462 64 511.99984 64 759.415218 64 959.99968 264.584462 959.99968 511.99984 959.99968 759.415218 759.415218 959.99968 511.99984 959.99968 264.584462 959.99968 64 759.415218 64 511.99984M414.843608 309.742846C386.052152 293.883651 362.66656 307.56258 362.66656 340.415901L362.66656 683.553912C362.66656 716.1683 386.022285 730.116029 414.843608 714.226968L729.070696 540.791296C757.802419 524.902235 757.862152 499.097445 729.070696 483.178517L414.843608 309.742846Z" p-id="2707" fill="#d81e06"></path></svg></div></dt>
      </router-link>
     </dl>    
@@ -71,14 +71,8 @@
     </dl>    
     <dl class="classiclist">
      <router-link to="/news10" class="classiclist-a">
-      <dd class="classiclist-img"><img src="../../assets/news/news10.jpg" alt="如果你觉得自己过得惨，就去看看日本黑帮"></dd>
+      <dd class="classiclist-img"><img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/video/%E6%97%A5%E6%9C%AC%E9%BB%91%E5%B8%AE.jpg" alt="如果你觉得自己过得惨，就去看看日本黑帮"></dd>
       <dt class="classiclist-h">如果你觉得自己过得惨，就去看看日本黑帮</dt>
-     </router-link>
-    </dl>    
-    <dl class="classiclist">
-     <router-link to="/news11" class="classiclist-a">
-      <dd class="classiclist-img"><img src="../../assets/news/news4.png" alt="为无知买单"></dd>
-      <dt class="classiclist-h"><p>为无知买单</p></dt>
      </router-link>
     </dl>    
     <dl class="classiclist">
@@ -101,14 +95,8 @@
     </dl>    
     <dl class="classiclist">
      <router-link to="/news12" class="classiclist-a">
-      <dd class="classiclist-img"><img src="../../assets/news/news3.png" alt="专赚女人钱，毛利超过茅台"></dd>
+      <dd class="classiclist-img"><img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/news3.png" alt="专赚女人钱，毛利超过茅台"></dd>
       <dt class="classiclist-h">赚女人钱，毛利超茅台<div class="classiclist-img2"><img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/gif1.gif"></div></dt>
-     </router-link>
-    </dl>    
-    <dl class="classiclist">
-     <router-link to="/news4" class="classiclist-a">
-      <dd class="classiclist-img"><img src="../../assets/news/172347349686.gif" alt="别乱买了，面膜真正的作用就这一个"></dd>
-      <dt class="classiclist-h">别乱买了，面膜真正的作用就这一个</dt>
      </router-link>
     </dl>    
     <dl class="classiclist">
@@ -119,7 +107,7 @@
     </dl>    
     <dl class="classiclist">
      <router-link to="/news9" class="classiclist-a">
-      <dd class="classiclist-img"><img src="../../../static/bigimg/news9.jpg" alt="只骗有钱人的童星捕手"></dd>
+      <dd class="classiclist-img"><img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/news9.jpg" alt="只骗有钱人的童星捕手"></dd>
       <dt class="classiclist-h">只骗有钱人的童星捕手</dt>
      </router-link>
     </dl>
@@ -127,18 +115,6 @@
      <router-link to="/news8" class="classiclist-a">
       <dd class="classiclist-img"><img src="https://s3.ifanr.com/wp-content/uploads/2019/03/46749037faee1470eb11baa86b0b6497213b2582.jpg!720" alt="中介房源照片修图"></dd>
       <dt class="classiclist-h">中介房源照片修图</dt>
-     </router-link>
-    </dl>
-    <dl class="classiclist">
-     <router-link to="/news5" class="classiclist-a">
-      <dd class="classiclist-img"><img src="../../assets/news/1231.jpg" alt="你看不懂的眼镜"></dd>
-      <dt class="classiclist-h">什么算好眼镜</dt>
-     </router-link>
-    </dl>
-    <dl class="classiclist">
-     <router-link to="/news3" class="classiclist-a">
-      <dd class="classiclist-img"><img src="../../assets/classic26.jpg" alt="一个小格子一天500万"></dd>
-      <dt class="classiclist-h">一个小格子一天500万</dt>
      </router-link>
     </dl>
     <dl class="classiclist">
@@ -153,12 +129,6 @@
       <dt class="classiclist-h">打不过洋人，还打不过你吗？ <div class='classiclist-img2'><svg t="1602994631456" class="icon" viewBox="0 0 1025 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1801" width="20" height="20"><path d="M1025.6 512c0-282.752-229.248-512-512-512s-512 229.248-512 512c0 282.24 228.416 511.104 510.4 511.936v0.064h512v-128h-171.968c106.368-93.824 173.568-231.04 173.568-384z m-336-249.6c49.472 0 89.6 40.128 89.6 89.6s-40.128 89.6-89.6 89.6-89.6-40.128-89.6-89.6 40.128-89.6 89.6-89.6z m0 320c49.472 0 89.6 40.128 89.6 89.6s-40.128 89.6-89.6 89.6-89.6-40.128-89.6-89.6 40.128-89.6 89.6-89.6z m-352 179.2c-49.472 0-89.6-40.128-89.6-89.6s40.128-89.6 89.6-89.6 89.6 40.128 89.6 89.6-40.128 89.6-89.6 89.6z m0-320c-49.472 0-89.6-40.128-89.6-89.6s40.128-89.6 89.6-89.6 89.6 40.128 89.6 89.6-40.128 89.6-89.6 89.6zM480 521.6a41.6 41.6 0 1 1 83.2 0 41.6 41.6 0 0 1-83.2 0z" fill="#1296db" p-id="1802"></path></svg></div></dt>
      </router-link>
     </dl>    
-    <dl class="classiclist">
-     <router-link to="/news7" class="classiclist-a">
-      <dd class="classiclist-img"><img src="https://p.nanrenwo.net/uploads/allimg/170925/8472-1F925150951.jpg" alt="女主播：月入十万，我还是很孤独"></dd>
-      <dt class="classiclist-h">女主播：月入十万，我还是很孤独</dt>
-     </router-link>
-    </dl>        
     <dl class="classiclist">
      <router-link to="" class="classiclist-a">
       <dd class="classiclist-img"><img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/news1.png" alt="朱东东当你扛不住的时候"></dd>

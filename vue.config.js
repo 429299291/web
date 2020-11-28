@@ -14,6 +14,16 @@ module.exports = {
             }
         }
     },
+    configureWebpack:{
+        externals: {
+            'element-ui': 'ELEMENT',
+            'vue': 'Vue',
+            // 'vue-router': 'VueRouter',
+            // echarts: 'echarts',
+            'xlsx': 'XLSX'
+        }
+    },
+
 configureWebpack:config=>{
         if(progress.env.NODE_ENV === 'production'){
             return{

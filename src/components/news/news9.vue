@@ -5,7 +5,7 @@
     <h3>只骗有钱人的童星捕手</h3>
     <p class="Author">本文转自:皮诺<span></span></p>
     <el-divider><i class="el-icon-star-on"></i></el-divider>
-    <img src="../../../static/bigimg/news9.jpg" alt="只骗有钱人的童星捕手">
+    <img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/news9.jpg" alt="只骗有钱人的童星捕手">
     <span>▲本文来自微信公众号：真实故事计划（ID：zhenshigushi1），作者：皮诺，编辑 ：刘妍</span>
     <p><em>父母对孩子的殷切期望，成了儿童经纪公司捞金的原动力</em>，为能帮孩子圆梦，家长们甘愿一掷千金，培养孩子成为童星。<em>看似磊落的造星路，背后藏着巨额利润和数不清的骗局。</em></p>
     <p>这是真实故事计划第 456个故事</p>

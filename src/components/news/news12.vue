@@ -5,7 +5,7 @@
     <h3>专赚女人钱，毛利超过茅台：这个行业，到底有多暴利？</h3>
     <p class="Author">本文转自:正解局<span></span></p>
     <el-divider><i class="el-icon-star-on"></i></el-divider>
-    <img src="../../assets/news/news3.png" alt="">
+    <img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/news3.png" alt="">
     <p>有人说，赚钱最快的法子，都写在刑法里。</p>
     <p>但实际上，现实世界里，并非鱼和熊掌不可兼得。</p>
     <p>要赚大钱，获得超高的利润，有两个方法很关键：</p>

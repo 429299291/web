@@ -38,17 +38,17 @@ export default {
   data () {
     return {
       msg: 'web',
-      url:'/static/bigimg/data6.jpg',
+      url:'https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/web/data6.jpg',
       items:[
-          "/static/bigimg/data5.jpg",
-          "/static/bigimg/data1.jpg",
-          "/static/bigimg/data2.jpg",
-          "/static/bigimg/data3.jpg",
-          "/static/bigimg/data4.jpg",
-          "/static/bigimg/data7.jpg",
-          "/static/bigimg/data8.png",
-          "/static/bigimg/data9.png",
-          "/static/bigimg/data10.png",
+          "https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/web/data5.jpg",
+          "https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/web/data1.jpg",
+          "https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/web/data2.jpg",
+          "https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/web/data3.jpg",
+          "https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/web/data4.jpg",
+          'https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/web/data7.jpg',
+          "https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/web/data8.png",
+          "https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/web/data9.png",
+          "https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/web/data10.png",
       ],
       year:2020,
         activities: [{

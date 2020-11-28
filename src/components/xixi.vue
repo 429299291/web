@@ -85,7 +85,7 @@
             data-aos-delay="500"
             data-aos-duration="1000"
           >
-            <img src="../../static/bigimg/love5.jpg" alt="东东的梦想">
+            <img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/gif1.gif" alt="东东的梦想">
           </div>
           <p class="main-text">入我相思门，知我相思苦，长相思兮长相忆，短相思兮无穷极
           </p>
