@@ -9,19 +9,19 @@
     <h4 class="model_title">3D智慧膜贴膜教程</h4>
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><video src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" poster="./poster.jpg" muted controls></video>
+        <div class="swiper-slide"><video src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" muted controls></video>
           <h5>立体通超神啦</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, ex odit expedita sunt sit alias ab ratione ipsam doloribus sapiente, iusto dignissimos, placeat tenetur. Dolor inventore praesentium beatae aliquid harum!</p></div>
-        <div class="swiper-slide"><video src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" poster="./poster.jpg" muted controls></video>
+        <div class="swiper-slide"><video src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" muted controls></video>
           <h5>立体通超神啦222</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores tempora recusandae, consequatur fuga laborum est tenetur velit veniam. Corporis quos sunt molestias eius consequatur quidem adipisci doloribus, dolorem a repudiandae.</p></div>
-        <div class="swiper-slide"><video src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" poster="./poster.jpg" muted controls></video>
+        <div class="swiper-slide"><video src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" muted controls></video>
           <h5>立体通超神啦333</h5>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat doloribus suscipit mollitia perspiciatis commodi possimus pariatur quo magni beatae soluta. Dolorem iste voluptate quisquam recusandae inventore adipisci delectus id possimus?</p></div>
-        <div class="swiper-slide"><video src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" poster="./poster.jpg" muted controls></video>
+        <div class="swiper-slide"><video src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" muted controls></video>
           <h5>立体通超神啦444</h5>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis numquam libero quis illo enim maiores, expedita cumque iusto explicabo nihil molestiae repudiandae aliquid. Et quod nesciunt incidunt placeat voluptate recusandae.</p></div>
-        <div class="swiper-slide"><video src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" poster="./poster.jpg" muted controls></video>
+        <div class="swiper-slide"><video src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" muted controls></video>
           <h5>立体通超深啦</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis architecto, iusto iure laborum excepturi, temporibus, expedita libero vitae obcaecati quos corrupti pariatur! Nam quas maiores quia veniam delectus incidunt minima?</p></div>
       </div>
