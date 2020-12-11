@@ -48,7 +48,7 @@ body{width: 100%;}
 @media screen and (max-width: 801px) {
 .header-h{font-size: 0.8rem!important}
 .el-menu--popup{padding: 0!important}
-#header{height: 3.6rem!important;}.header-h{padding-top: 1rem!important;}
+#header{height: 3rem!important;}.header-h{padding-top: 1rem!important;}
 .el-menu--horizontal>.el-submenu .el-submenu__icon-arrow{margin-left: 0!important;}
 /* 标题字大小 */
 .header-h img{width:27%!important;margin: 0 auto;vertical-align:middle} 
@@ -60,7 +60,6 @@ body{width: 100%;}
 .el-menu--horizontal .el-menu--popup{min-width: 4.5rem!important;}
 /* 下拉出来的小导航条 */
 /* .el-menu--horizontal .el-menu .el-menu-item, .el-menu--horizontal .el-menu .el-submenu__title{height: 1.5rem!important;line-height: 1.5rem!important;font-size: .7rem} */
-#app p{font-size: 1rem;}
 .tree{background: none!important}
 /* profile 的走马灯的手机高度 */
 .el-carousel__container{height: 6.2rem!important;}
@@ -111,10 +110,7 @@ background-size: cover;width: 100%;height: 100%;}
 .el-menu--horizontal .el-menu--popup{min-width:115px;text-align: center;}
 .active{background-color: rgba(0,0,0,0)!important;}
 .el-submenu__title{background-color: rgba(0,0,0,0)!important;}
-#header{height: 15rem;background-color: #fff;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%2380F'/%3E%3Cstop offset='1' stop-color='%23f40'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='24' height='24' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23ffffff' cx='12' cy='12' r='12'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.1'/%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: cover;}
+
 /* 导航下拉小图标 */
 .el-submenu__title i{color:rgba(255, 255, 255, .2)!important}
 .el-submenu__title:hover i{color:rgba(255, 255, 255,.7)!important}

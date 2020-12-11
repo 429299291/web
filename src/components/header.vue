@@ -44,6 +44,10 @@
         </div>
         </div>
       
+        <div class="angel" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000" aos-duration="2000" data-aos-delay="2000">
+          <div class="angel_inner"></div>
+        </div>
+
     </el-menu>
   </div>
 </template>
@@ -178,7 +182,7 @@ export default {
 .wechat_2{position:fixed ;right: 15%;top: 60px;display: none;border: 1px dashed rgba(225, 19, 19, 1)}
 .wechat :hover + .wechat_2{top: 0px;display: block;}
 .news{background-color: rgba(0, 0, 0, 0);}
-
+/* 
 .header_inner{
     width: 100%;
     height: 100%;
@@ -218,16 +222,33 @@ export default {
     background-repeat: no-repeat;
     background-size: 50px;
     background-position: 50% 50%;
+} */
+.angel{
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  outline: none;
+  right: 3%;
+  top: 10%;
+  background-position: 50% 50%;
+  border: none;
 }
-/* 小女孩 */
-.header_inner .middle:hover .middle_child{
-    opacity: 0.5;
-    left: 100%;
-    top: -50%;
-    transform:scale(0.7) ;
+.angel:hover .angel_inner{
+    opacity: 0.4;
+    transform: scale(0.3);
+    right: -2rem;
+    top:-2rem;
 }
-.header_inner .left {
-  padding-left: 30%;color: #fefefe;font-size: 1rem;line-height: 100%;height: 100%;padding-top: 10%;
+.angel_inner{
+  background-size: contain;
+  transition: all 1s linear;
+  position: absolute;
+  right: 0;
+  width: 3rem;
+  height:3rem;
+  top: 0;
+  background-repeat: no-repeat;
+  background-image: url(https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/angel.png);
 }
-
 </style>
