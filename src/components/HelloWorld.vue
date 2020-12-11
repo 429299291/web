@@ -25,6 +25,9 @@
             <h5>立体通超深啦</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis architecto, iusto iure laborum excepturi, temporibus, expedita libero vitae obcaecati quos corrupti pariatur! Nam quas maiores quia veniam delectus incidunt minima?</p></div>
         </div>
+    <div class="swiper-button-prev"></div><!--左箭头。如果放置在swiper-container外面，需要自定义样式。-->
+    <div class="swiper-button-next"></div><!--右箭头。如果放置在swiper-container外面，需要自定义样式。-->
+    <div class="swiper-pagination"></div>
       </div>
       <h5></h5>
     </div>
@@ -84,6 +87,11 @@ components: {
           type : 'progressbar',
           progressbarOpposite: false,
       },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
     })
   },
   beforeDestroy(){
@@ -102,7 +110,7 @@ body{
   width: 100%;
 }
 .swiper-container{
-  width:70%;
+  width:85%;
   margin: 1rem auto;
 }
 .swiper-slide video{
@@ -123,10 +131,10 @@ body{
     --swiper-navigation-size: 30px;/* 设置按钮大小 */
   }
   .swiper-button-prev{
-    left: -10%;
+    left: -5%;
   }
   .swiper-button-next{
-    right: -10%;
+    right: -5%;
   }
   .swiper-container-horizontal>.swiper-pagination-progressbar, .swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite{
     transform: translateY(-3px);
