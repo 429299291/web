@@ -43,5 +43,6 @@ export default [
   {path:'/data_3d',component:()=>import('./components/data_3d.vue'),name: "data_3d"},
   {path:'/seo',component:()=>import('./components/seo.vue'),name: "seo"},
   {path:'/1',component:()=>import('./components/helloworld.vue'),name: "helloworld"},
+  {path:'/2',component:()=>import('./components/helloworld2.vue'),name: "helloworld2"},
   {path:'*',redirect:"/"}
 ]

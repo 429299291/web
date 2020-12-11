@@ -1,10 +1,10 @@
 <template>
-  <div class="header">
+  <div class="header header_native_index">
     <div class="logo" data-aos="zoom-in" data-aos-duration="2500">
       </div>
     <el-menu
       :default-active="$route.path"
-      class="el-menu-demo nav"
+      class="el-menu-demo nav nav_native_index"
       mode="horizontal"
       text-color="#fff"
       router
@@ -178,4 +178,56 @@ export default {
 .wechat_2{position:fixed ;right: 15%;top: 60px;display: none;border: 1px dashed rgba(225, 19, 19, 1)}
 .wechat :hover + .wechat_2{top: 0px;display: block;}
 .news{background-color: rgba(0, 0, 0, 0);}
+
+.header_inner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header_inner #airplane {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.header_inner .action {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+}
+.header_inner .middle {
+    width: 80px;
+    position: fixed;
+    height: 80px;
+    right: 3%;
+    top: 10%;
+    z-index: 999;
+}
+.header_inner .middle_child {
+    width: 80px;
+    height: 80px;
+    transition: all 1s ease-out;
+    background: url(../assets/angel.png);
+    position: absolute;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 50% 50%;
+}
+/* 小女孩 */
+.header_inner .middle:hover .middle_child{
+    opacity: 0.5;
+    left: 100%;
+    top: -50%;
+    transform:scale(0.7) ;
+}
+.header_inner .left {
+  padding-left: 30%;color: #fefefe;font-size: 1rem;line-height: 100%;height: 100%;padding-top: 10%;
+}
+
 </style>

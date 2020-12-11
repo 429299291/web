@@ -43,7 +43,7 @@ export default {
 }
 </script>
 
-<style >
+<style>
 body{width: 100%;}
 @media screen and (max-width: 801px) {
 .header-h{font-size: 0.8rem!important}
@@ -187,70 +187,5 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* 侧边下拉条隐藏 */
-.el-scrollbar__wrap {
-  overflow-x: hidden!important;
-}
-.is-horizontal{display: none;}
-.el-divider__text{background-color: transparent!important;}
 
-
-
-/* feiji */
-
-/* General stuff */
-/* The airplane image */
-
-.header_inner{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.header_inner #airplane {
-    display: block;
-    /* The hover animation */
-    
-    width: 80%;
-    height: auto;
-    margin: auto;
-}
-.header_inner .action {
-    position: absolute;
-    z-index: 1;
-    height: 100%;
-}
-.header_inner .middle {
-    width: 80px;
-    position: fixed;
-    height: 80px;
-    right: 3%;
-    top: 10%;
-    z-index: 999;
-}
-.header_inner .middle_child {
-    width: 80px;
-    height: 80px;
-    transition: all 1s ease-out;
-    background: url(./assets/angel.png);
-    position: absolute;
-    left: 55%;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    background-repeat: no-repeat;
-    background-size: 50px;
-    background-position: 50% 50%;
-}
-/* 小女孩 */
-.header_inner .middle:hover .middle_child{
-    opacity: 0.5;
-    left: 100%;
-    top: -50%;
-    transform:scale(0.7) ;
-}
-.header_inner .left {
-  padding-left: 30%;color: #fefefe;font-size: 1rem;line-height: 100%;height: 100%;padding-top: 10%;
-}
 </style>
