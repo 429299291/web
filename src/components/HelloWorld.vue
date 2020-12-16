@@ -2,36 +2,51 @@
   <div class="lititong">
     <div class="header">
       <div class="logo" id="return"><svg t="1607581779546" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6489" width="34" height="34"><path d="M641.28 278.613333l-45.226667-45.226666-278.634666 278.762666 278.613333 278.485334 45.248-45.269334-233.365333-233.237333z" p-id="6490" fill="#ffffff"></path></svg></div>
-      <h5 class="title">立体通应用商城</h5>
+      <h5 class="title" id="title">立体通应用商城</h5>
       <div class="menu"><svg t="1607582144306" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6920" width="34" height="34"><path d="M469.333 192c153.174 0 277.334 124.16 277.334 277.333 0 68.054-24.534 130.411-65.216 178.688L846.336 818.24l-48.341 49.877L630.4 695.125a276.053 276.053 0 0 1-161.067 51.542C316.16 746.667 192 622.507 192 469.333S316.16 192 469.333 192z m0 64C351.51 256 256 351.51 256 469.333s95.51 213.334 213.333 213.334 213.334-95.51 213.334-213.334S587.157 256 469.333 256z" p-id="6921" fill="#ffffff"></path></svg></div>
     </div>
     <div class="content">
-      <h4 class="model_title">3D智慧膜贴膜教程</h4>
+      <!-- <h4 class="model_title" id="model_title">立体通视频教程</h4> -->
       <div class="swiper-container">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><video src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" x5-video-player-type='h5' muted controls autoplay poster="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/poster.jpg"></video>
-            <h5>立体通超神啦</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, ex odit expedita sunt sit alias ab ratione ipsam doloribus sapiente, iusto dignissimos, placeat tenetur. Dolor inventore praesentium beatae aliquid harum!</p></div>
-          <div class="swiper-slide"><video src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" x5-video-player-type='h5' muted controls autoplay poster="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/video/3q.png"></video>
-            <h5>立体通超神啦222</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores tempora recusandae, consequatur fuga laborum est tenetur velit veniam. Corporis quos sunt molestias eius consequatur quidem adipisci doloribus, dolorem a repudiandae.</p></div>
-          <div class="swiper-slide"><video src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" x5-video-player-type='h5' muted controls autoplay poster="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/video/bitbi.jpg"></video>
-            <h5>立体通超神啦333</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat doloribus suscipit mollitia perspiciatis commodi possimus pariatur quo magni beatae soluta. Dolorem iste voluptate quisquam recusandae inventore adipisci delectus id possimus?</p></div>
-          <div class="swiper-slide"><video src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" x5-video-player-type='h5' muted controls autoplay poster="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/video/hengda.png"></video>
-            <h5>立体通超神啦444</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis numquam libero quis illo enim maiores, expedita cumque iusto explicabo nihil molestiae repudiandae aliquid. Et quod nesciunt incidunt placeat voluptate recusandae.</p></div>
-          <div class="swiper-slide"><video src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" x5-video-player-type='h5' muted controls autoplay poster="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/video/jiashi.jpg"></video>
-            <h5>立体通超深啦</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis architecto, iusto iure laborum excepturi, temporibus, expedita libero vitae obcaecati quos corrupti pariatur! Nam quas maiores quia veniam delectus incidunt minima?</p></div>
+          <div class="swiper-slide">
+            <video class="model_video" width="100%" src="http://ltt-appmarket.lititong.net/3D%20smart%20film%20installation%20video%20%28dura%29%281%29.mp4" x5-video-player-type='h5' muted controls poster="http://ltt-appmarket.lititong.net/1.jpg"></video>
+            <h5 id="model_h5">立体通三维智慧膜安装视频（硬膜）</h5>
+            <ul class="model_ul_li">
+              <li>1.拆开包装盒，内含校准盒、贴膜工具包、定位框、激活码、白边填充液、用户手册、三维智慧膜（硬膜）（标名称）</li>
+              <li>2.设置默认分辨率，安卓手机请调节手机分辨率，关闭智能调节，分辨率选择最高分辨率</li>
+              <li>3.如手机原有佩戴手机壳或粘贴手机膜的，请取下或撕掉</li>
+              <li>4.撕开贴膜工具包，取出干布、除尘贴、1号湿巾和2号干巾</li>
+              <li>5.用1号湿巾清理手机表面的指纹和油渍</li>
+              <li>6.用2号干巾擦净屏幕表面的水渍</li>
+              <li>7.用除尘贴纸吸走表面可能残留的灰尘，注意手不要碰到除尘贴粘面</li>
+            </ul>
+          </div>
+          <div class="swiper-slide">
+            <video class="model_video" width="100%" src="http://ltt-appmarket.lititong.net/3D%20smart%20film%20installation%20video%20%28soft%20film%29%281%29.mp4" x5-video-player-type='h5' muted controls poster="http://ltt-appmarket.lititong.net/2.jpg"></video>
+            <h5>立体通三维智慧膜安装视频（软膜）</h5>
+            <ul class="model_ul_li">
+              <li>1.用1号湿巾清理手机表面的指纹和油渍</li>
+              <li>2.用2号干巾擦净屏幕表面的水渍</li>
+              <li>3.用除尘贴纸吸走表面可能残留的灰尘，注意手不要碰到除尘贴粘面</li>
+              <li>4.把手机顶端朝定位框标“TOP”卡入（加标注）</li>
+              <li>5.取出定位框，用手从手机屏幕中间向两端抹平智慧膜边缘，用手抹平可让智慧膜边缘更加贴合手机，减少气泡</li>
+              <li>6.从手机顶端轻轻撕开外层保护膜，尾端连接膜扯下即可。如有较大气泡，可用指甲微微翘起并快速抹平，少量气泡，两天左右可自动修复</li>
+              </ul>
+            </div>
+          <div class="swiper-slide">
+            <video class="model_video" width="100%" src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/video/%E5%A4%A7mp4" x5-video-player-type='h5' muted controls poster="http://ltt-appmarket.lititong.net/1.jpg"></video>
+            <h5>立体通</h5>
+            <ul class="model_ul_li">
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem similique enim nobis quibusdam quae et, iure aliquid non eaque sequi deserunt rerum accusamus! Dolorem temporibus neque odio deleniti earum ipsam.</li>
+            </ul>
+            </div>
         </div>
-    <div class="swiper-button-prev"></div><!--左箭头。如果放置在swiper-container外面，需要自定义样式。-->
-    <div class="swiper-button-next"></div><!--右箭头。如果放置在swiper-container外面，需要自定义样式。-->
-    <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
       </div>
-      <h5></h5>
     </div>
-
     <div class="footer">
       <div>
         <svg t="1607582589250" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7153" width="26" height="26"><path d="M556.586667 159.36l288.490666 183.914667A64 64 0 0 1 874.666667 397.248v392.746667a64 64 0 0 1-64 64H555.456l0.021333-196.992H490.666667v196.992H234.666667a64 64 0 0 1-64-64v-398.293334a64 64 0 0 1 30.272-54.4l287.530666-178.346666a64 64 0 0 1 68.138667 0.426666zM810.666667 790.016V397.226667L522.197333 213.333333 234.666667 391.68v398.336h192v-197.013333h192.810666v196.992H810.666667z" p-id="7154" fill="#ffffff"></path></svg>
@@ -53,35 +68,92 @@ export default {
   name: 'v_header',
   data () {
     return {
-	    msg: 'header',
+      msg: 'header',
+      current: 0,
+      datalist:{
+        duraMater:{
+          model_title:'立体通三维智慧膜安装视频（硬膜）',
+          textlist:[
+            '拆开包装盒，内含校准盒、贴膜工具包、定位框、激活码、白边填充液、用户手册、三维智慧膜（硬膜）（标名称）',
+            '设置默认分辨率，安卓手机请调节手机分辨率，关闭智能调节，分辨率选择最高分辨率',
+            '如手机原有佩戴手机壳或粘贴手机膜的，请取下或撕掉',
+            '撕开贴膜工具包，取出干布、除尘贴、1号湿巾和2号干巾',
+            '用1号湿巾清理手机表面的指纹和油渍',
+            '用2号干巾擦净屏幕表面的水渍',
+            '用除尘贴纸吸走表面可能残留的灰尘，注意手不要碰到除尘贴粘面',
+            '把手机顶端朝定位框标“TOP”卡入（加标注)',
+            '撕下智慧膜的黏贴层保护膜，对齐手机屏幕及孔位，进行贴膜',
+            '取出定位框',
+            '取适量白边填充液涂抹四周，以便于更好贴合及显示效果，每次少量挤入，待其自动吸入，完成后擦净多余的填充液'
+          ],
+          projectvideo:'http://ltt-appmarket.lititong.net/3D%20smart%20film%20installation%20video%20%28dura%29.mp4'
+        },
+        softMater:{
+          model_title:'立体通三维智慧膜安装视频（软膜）',
+          textlist:[
+            '拆开包装盒，内含校准盒、贴膜工具包、定位框、刮板、激活码、白边填充液、用户手册、三维智慧膜（软膜）（标名称）',
+            '设置默认分辨率，安卓手机请调节手机分辨率，关闭智能调节，分辨率选择最高分辨率',
+            '如手机原有佩戴手机壳或粘贴手机膜的，请取下或撕掉',
+            '撕开贴膜工具包，取出干布、除尘贴、1号湿巾和2号干巾',
+            '用1号湿巾清理手机表面的指纹和油渍',
+            '用2号干巾擦净屏幕表面的水渍',
+            '用除尘贴纸吸走表面可能残留的灰尘，注意手不要碰到除尘贴粘面',
+            '把手机顶端朝定位框标“TOP”卡入（加标注)',
+            '将智慧膜顶端标签面朝下扣在定位框上，对准顶端孔位扣入，按住“TOP”端的保护膜，扶住智慧膜两边，另一只手缓缓撕开黏贴层保护膜，轻轻扶着智慧膜两边 防止吸附，扣入尾准孔位同，智慧膜保持与手机屏幕平行即可，切记不可提得过高 防止过多空气进入（加标注)  使用刮板布端接触智慧膜，从手机中间往两端适当用力刮平黏贴',
+            '取出定位框，用手从手机屏幕中间向两端抹平智慧膜边缘，用手抹平可让智慧膜边缘更加贴合手机，减少气泡',
+            '从手机顶端轻轻撕开外层保护膜，尾端连接膜扯下即可。如有较大气泡，可用指甲微微翘起并快速抹平，少量气泡，两天左右可自动修复'
+          ],
+          projectvideo:'http://ltt-appmarket.lititong.net/3D%20smart%20film%20installation%20video%20%28soft%20film%29.mp4'
+        },
+      }
+
+
+
+
     }
   },
   methods: {
-
+    // duraMater_setview(activeIndex = 1) {
+    //   var newactiveIndex = activeIndex
+    //   document.getElementById('model_title').innerText = this.datalist.duraMater.model_title
+    //   document.getElementsByClassName('model_video')[newactiveIndex].src = this.datalist.duraMater.projectvideo
+    //   for(var i=0;i<this.datalist[dataindex].textlist.length;i++){
+    //     var model_li = document.createElement('li')
+    //     model_li.innerText = i+1 + '. ' + this.datalist[dataindex].textlist[i]
+    //     document.getElementsByClassName('model_ul_li')[newactiveIndex].appendChild(model_li)
+    //   }
+      
+    // }
   },
 components: {
+  onChange(current) {
+        // console.log('onChange:', current);
+        this.current = current;
+      },
+
 },
   mounted () {
     document.getElementsByClassName('header_native_index')[0].style.display = 'none'
     const _this = this
+    //返回主页
     document.getElementById('return').onclick = function(){
       _this.$router.push({path:'./'})
     }
+    //swiper
     var mySwiper = new Swiper('.swiper-container',{
-      effect : 'cube',
-      loop : true,
-      grabCursor : true,
+      // effect : 'cube',
+      // grabCursor : true,
       autoplay: {
-          delay: 3000,
+          delay: 5000,
           disableOnInteraction: true,
           stopOnLastSlide: true,
         },
-      cubeEffect: {
-        slideShadows: true,
-        shadow: true,
-        shadowOffset: 100,
-        shadowScale: 0.6
-      },
+      // cubeEffect: {
+      //   slideShadows: true,
+      //   shadow: true,
+      //   shadowOffset: 100,
+      //   shadowScale: 0.6
+      // },
       pagination: {
         el: '.swiper-pagination',
           type : 'progressbar',
@@ -104,13 +176,15 @@ components: {
 body{
   height: 100vh;
   overflow: hidden;
+  font-size: 62.5%;
 }
 .lititong{min-height: 100vh;}
 .content{
   width: 100%;
 }
 .swiper-container{
-  width:85%;
+  /* width:85%; */
+  width:100%;
   margin: 1rem auto;
 }
 .swiper-slide video{
@@ -118,7 +192,9 @@ body{
 }
 .swiper-slide h5{
   font-size: 1rem;
-  padding: 1rem 0;
+  line-height: 2rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid #ccc;
 }
 .model_title{
   text-align: center;
@@ -131,14 +207,17 @@ body{
     --swiper-navigation-size: 30px;/* 设置按钮大小 */
   }
   .swiper-button-prev{
-    left: -5%;
+    /* left: -5%; */
   }
   .swiper-button-next{
-    right: -5%;
+    /* right: -5%; */
   }
   .swiper-container-horizontal>.swiper-pagination-progressbar, .swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite{
     transform: translateY(-3px);
   }  
+#tips{
+  width: 100%;
+}
 /* ============================================= */
 .header{
   width: auto;
@@ -164,7 +243,7 @@ body{
 }
 .footer{
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   height: 4rem;
   background-color: #077ae2;
@@ -172,10 +251,19 @@ body{
   align-content: center;
   justify-content:space-around;
   color: #fff;
+  z-index: 99;
   font-size: 0.8rem;
 }
 .footer svg{
   margin-top: 0.5rem;
+}
+.model_ul_li{
+  padding: 1rem;
+}
+.model_ul_li li{
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  text-indent: 1rem;
 }
 #app .header .native_nav_index{display: none !important}
 </style>
