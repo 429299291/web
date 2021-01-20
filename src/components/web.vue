@@ -135,7 +135,7 @@ export default {
             axisLabel:{
                 interval:0  //横轴各个技术点的最小间隔
             },       
-            data: ['HTML5','css3','JavaScript','VUE','echarts','Photoshop','SEO','小程序','大数据','git','Flash都忘了','After Effects','canvas','VUEX','axios','webpack','Element','node.js','Python','swiper','ES6','websocket','NPM','Axure','three.js','stylus/sass'],
+            data: ['HTML5','css3','JavaScript','VUE','Node','echarts','Photoshop','mongoDB数据库','SEO','小程序','大数据','git','Flash','After Effects','Node-express','VUEX','axios','webpack','Element','Python','swiper','ES6','websocket','NPM','Axure','stylus/sass','PHP'],
             axisPointer: {
                 type: 'shadow'
             }
@@ -161,7 +161,7 @@ export default {
             type: 'value',
             name: '运用时间',
             min: 0,
-            max: 9,
+            max: 10,
             interval: 1,
             axisLabel: {
                 formatter: '{value}年'
@@ -173,19 +173,19 @@ export default {
             name:'技术熟练度',
             type:'bar',
             barMaxWidth:13,
-            data:[95,95,91,87,86, 88,86, 86,89,77, 59,53,40,88,86,96,89,45,13,82,85,76,79,79,46,86]
+            data:[95,95,91,87,73,86, 88,39,86, 86,89,77, 59,53,40,88,86,96,89,13,82,85,76,79,79,86,34]
         },
         {
             name:'项目熟练度',
             type:'bar',
             barMaxWidth:13,
-            data:[93,98,86,92, 91,96, 68, 62,88,89, 39, 35,45,82,88,86,91,33,9,77,69,82,88,82,36,88]
+            data:[93,98,86,92,60, 91,96,67,68, 62,88,89, 39, 35,45,82,88,86,91,9,77,69,82,88,82,88,59]
         },
         {
             name:'使用年限',
             type:'line',
             yAxisIndex: 1,
-            data:[this.$store.getters.html, this.$store.getters.css3, this.year-2013.5,this.year-2015,this.year-2016,this.year-2012,this.year-2014,this.year-2017,this.year-2016,this.year-2015,this.year-2013,this.year-2014.5,this.year-2015,this.year-2016,this.year-2015,this.year-2015,this.year-2014,this.year-2017,this.year-2019,this.year-2016.5,this.year-2016,this.year-2017,this.year-2016.5,this.year-2012,this.year-2015,this.year-2017]
+            data:[this.year-2010, this.year-2010, this.year-2013.5,this.year-2015,this.year-2019,this.year-2016,this.year-2012,this.year-2019,this.year-2014,this.year-2018,this.year-2016,this.year-2015,this.year-2013,this.year-2014.5,this.year-2019,this.year-2016,this.year-2015,this.year-2015,this.year-2014,this.year-2019,this.year-2016.5,this.year-2016,this.year-2017,this.year-2016.5,this.year-2012,this.year-2017,this.year-2016]
         }
     ],
         visualMap: {
@@ -237,7 +237,7 @@ export default {
   created(){
       document.title = "前端开发❤"
       // this.year = parseFloat(((new Date()).getFullYear() + (new Date().getMonth() + 1)/10).toFixed(1))
-      this.year = 2019.5
+      this.year = 2021
   }
   }
 </script>

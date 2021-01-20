@@ -6,8 +6,6 @@ Vue.use(Vuex)
 export const store = new Vuex.Store({
   state: {
     time: 2020.5,
-    html: 2010,
-    css3: 2010,
   },
   getters: {
     html: state => {
