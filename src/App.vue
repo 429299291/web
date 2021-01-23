@@ -44,7 +44,7 @@ export default {
 </script>
 
 <style>
-body{width: 100%;}
+body{width: 100%;height: 100%;}
 @media screen and (max-width: 801px) {
 .header-h{font-size: 0.8rem!important}
 .el-menu--popup{padding: 0!important}
@@ -105,7 +105,7 @@ body{width: 100%;}
 body{background-color: #e0ffe1;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23e2fff2'/%3E%3Cstop offset='1' stop-color='%23e2fff2' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23fff5e3'/%3E%3Cstop offset='1' stop-color='%23fff5e3' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23e9e4ff'/%3E%3Cstop offset='1' stop-color='%23e9e4ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23e0ffe1'/%3E%3Cstop offset='1' stop-color='%23e0ffe1' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23e3fdff'/%3E%3Cstop offset='1' stop-color='%23e3fdff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ffe6f9'/%3E%3Cstop offset='1' stop-color='%23ffe6f9' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
 background-attachment: fixed;
-background-size: cover;width: 100%;height: 100%;}
+background-size: cover;}
 /* 导航栏hover下面的宽度 */
 .el-menu--horizontal .el-menu--popup{min-width:115px;text-align: center;}
 .active{background-color: rgba(0,0,0,0)!important;}
@@ -117,12 +117,12 @@ background-size: cover;width: 100%;height: 100%;}
 .el-menu--horizontal>.el-submenu .el-submenu__icon-arrow{margin-left:.2rem!important;}
   
 /*hover*/
-abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-    margin: 0;
-    padding: 0;
-    cursor: url('https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/favicon.ico'),auto;
+.el-submenu__title, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    cursor: url('https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/default.cur'),default;
 }
-
+a, a:active, a:hover, a:link, a:visited,.pointer{
+  cursor:url('https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/pointer.cur'),pointer;
+}
 h1,h2,h3,h4,h5,h6{font-weight:normal;line-height: 1.3;text-align: center;font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;}
 .header-h{font-size: 2rem;font-weight: bold}
 
@@ -130,58 +130,4 @@ h1,h2,h3,h4,h5,h6{font-weight:normal;line-height: 1.3;text-align: center;font-fa
   .el-submenu__title{padding: 0!important}
 .header-h{font-size: 0.8rem!important}
 } /* 设置了浏览器宽度不大于500px时 abc 显示100px宽度 */ 
-
-
-/* 默认css */
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-  font-family: "Microsoft Yahei","Hiragino Sans GB",tahoma,arial,;
-  text-decoration: none;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	/* line-height: 1; */
-  height:100%;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 </style>

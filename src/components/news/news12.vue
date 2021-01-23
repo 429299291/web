@@ -72,7 +72,7 @@
     <p>甚至，有些人被迫消费升级：从国货到洋品牌，从低档产品到中高档产品。</p>
     <p>当效果逐渐消失，看着镜子里水灵、白净的姑娘变成皮肤暗淡的大妈，唯一的出路就是：</p>
     <p>再去打一针。</p>
-    <img src="../../assets/news/news5.png" alt="">
+    <img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/news5.png" alt="">
 
   </div>
 </div>

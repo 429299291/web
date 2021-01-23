@@ -130,12 +130,11 @@
      </router-link>
     </dl>    
     <dl class="classiclist">
-     <router-link to="" class="classiclist-a">
-      <dd class="classiclist-img"><img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/news1.png" alt="朱东东当你扛不住的时候"></dd>
-      <dt class="classiclist-h">到底了...
-      </dt>
+     <router-link to="/news11" class="classiclist-a">
+      <dd class="classiclist-img"><img src="https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/news/news4.png" alt="为无知买单"></dd>
+      <dt class="classiclist-h">为无知买单</dt>
      </router-link>
-    </dl>
+    </dl>    
   </div>  
     </el-scrollbar>
   </div>
@@ -195,5 +194,5 @@ export default {
 .classiclist-img img{height: 17.5rem;transition: all 1s ease-in-out;position: absolute;left: 0;top: 0; will-change: transform;}
 .classiclist-img img:hover{position: absolute;left: 0;top: 0;transform: translate(-100%,0);margin-left: 100%;}
 #header .header_p{font-size: .7rem;color: #666;text-align: center;padding-top: 1rem;}
-
+.classiclist-a{text-decoration: none;}
 </style>

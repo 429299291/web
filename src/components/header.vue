@@ -12,26 +12,28 @@
       active-text-color=" rgba(52, 252, 105, 0.7)"
       @select="handleSelect"
       >
-      <el-menu-item index="/index">首页</el-menu-item>
-      <el-submenu index="2">
+      <el-menu-item index="/index" class="pointer">首页</el-menu-item>
+      <el-submenu index="2" class="pointer">
         <template slot="title">简介</template>
-        <el-menu-item index="/profile">小日记</el-menu-item>
-        <el-menu-item index="/design">UI design</el-menu-item>
-        <el-menu-item index="/web">前端开发</el-menu-item>
+        <el-menu-item index="/profile" class="pointer">小日记</el-menu-item>
+        <el-menu-item index="/design" class="pointer">UI design</el-menu-item>
+        <el-menu-item index="/web" class="pointer">前端开发</el-menu-item>
         <el-menu-item index="1-3" disabled="">小程序</el-menu-item>
-        <el-menu-item index="/seo">SEO</el-menu-item>
-        <el-menu-item index="/python">python</el-menu-item>
+        <el-menu-item index="/seo" class="pointer">SEO</el-menu-item>
+        <el-menu-item index="/node" class="pointer" disabled>Node</el-menu-item>
+        <el-menu-item index="/mongoDB" disabled class="pointer">mongoDB</el-menu-item>
+        <el-menu-item index="/python" class="pointer">python</el-menu-item>
       </el-submenu>
       <!-- <el-menu-item index="/news" class="tree">深度书本</el-menu-item> -->
       <el-submenu index="3" class="tree">
-        <template slot="title">资讯</template>
-        <el-menu-item index="/news">深度好文</el-menu-item>
+        <template slot="title" class="pointer">资讯</template>
+        <el-menu-item index="/news" class="pointer">深度好文</el-menu-item>
       </el-submenu>
       <el-submenu index="4">
-        <template slot="title">大数据</template>
-        <el-menu-item index="/data">base</el-menu-item>
-        <el-menu-item index="/data_global">map</el-menu-item>
-        <el-menu-item index="/data_3d">3D data</el-menu-item>
+        <template slot="title" class="pointer">大数据</template>
+        <el-menu-item index="/data" class="pointer">base</el-menu-item>
+        <el-menu-item index="/data_global" class="pointer">map</el-menu-item>
+        <el-menu-item index="/data_3d" class="pointer">3D data</el-menu-item>
       </el-submenu>
     
       <div class="contact">
@@ -97,7 +99,7 @@ export default {
 }
 /* 圣诞树 */
 .tree{
-  background: url(https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/active_03.png) no-repeat 97% top;background-size: 15px;transition: all 0s;
+  background: url(https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/active_03.png) no-repeat 97% top;background-size: 15px;transition: all 0.5s;
 }
 .tree:hover{background: url(https://web-personal-zhu.oss-cn-shenzhen.aliyuncs.com/images/active_03.png) no-repeat 97% bottom;background-size: 15px;}
 .active::after,.el-menu-item::after {
