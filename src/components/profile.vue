@@ -50,7 +50,6 @@ export default {
   data () {
     return {
       msg: 'profile',
-    
     }
   },
   components:{
@@ -58,7 +57,6 @@ export default {
   },
   mounted:function(){
     document.title = "信笔一书❤"
-
     },   
 }
 </script>

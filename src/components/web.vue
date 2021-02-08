@@ -70,13 +70,19 @@ export default {
           timestamp: 'google、百度、搜狗等搜索引擎优化',
           size: 'large',
           icon:'el-icon-s-help'
-        }, {
-          content: '开发',
+        },{
+          content: '前端开发',
           type: 'success',
           size: 'large',
           icon:'el-icon-s-platform',
-          timestamp: 'H5，移动端，小程序，大数据'
-        }, {
+          timestamp: 'H5，移动端，小程序，大数据可视化'
+        },{
+          content: 'node后台开发',
+          type: 'success',
+          size: 'large',
+          icon:'el-icon-menu',
+          timestamp: 'press服务器，token，权限控制，mongodb数据库'
+        },{
           content: '3D',
           type: 'warning',
           size: 'large',

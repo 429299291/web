@@ -5,8 +5,6 @@ import App from './App'
 import vueRouter from 'vue-router'
 import Routes from './routes.js'
 import BaiduMap from 'vue-baidu-map'
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
 import {store} from './store/store.js'
 Vue.prototype.$store = store
 
@@ -42,7 +40,6 @@ Vue.use(VueLazyload, {
 // })
 
 
-AOS.init();
 AOS.init({
   // Global settings:
   disable: window.innerWidth < 1024, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
