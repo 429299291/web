@@ -1,12 +1,10 @@
 
 import Index from './components/index.vue'
-import Profile from './components/profile.vue'
-import News from './components/news/news.vue'
 export default [
   {path:'/',component:Index,name: "index"},
-  {path:'/profile',component:Profile,name: "profile"},
+  {path:'/profile',component:() =>import('./components/profile.vue'),name: "profile"},
   {path:'/xixi',component:() =>import('./components/xixi.vue'),name: "xixi"},
-  {path:'/news',component:News,name: "news"},
+  {path:'/news',component:() =>import('./components/news/news.vue'),name: "news"},
   {path:'/news1',component:()=>import('./components/news/news1.vue'),name: "news1"},
   {path:'/news2',component:()=>import('./components/news/news2.vue'),name: "news2"},
   // {path:'/news3',component:()=>import('./components/news/news3.vue'),name: "news3"},
@@ -41,6 +39,7 @@ export default [
   {path:'/data',component:()=>import('./components/data.vue'),name: "data"},
   {path:'/data_global',component:()=>import('./components/data_global.vue'),name: "data_global"},
   {path:'/data_3d',component:()=>import('./components/data_3d.vue'),name: "data_3d"},
+  {path:'/data_3dshow',component:()=>import('./components/data_3dshow.vue'),name: "data_3dshow"},
   {path:'/seo',component:()=>import('./components/seo.vue'),name: "seo"},
   {path:'/1',component:()=>import('./components/helloworld.vue'),name: "helloworld"},
   {path:'/2',component:()=>import('./components/helloworld2.vue'),name: "helloworld2"},

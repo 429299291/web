@@ -7,6 +7,8 @@ import Routes from './routes.js'
 import BaiduMap from 'vue-baidu-map'
 import {store} from './store/store.js'
 Vue.prototype.$store = store
+import axios from 'axios'
+Vue.prototype.$axios = axios
 
 Vue.use(vueRouter)
 Vue.use(BaiduMap, {

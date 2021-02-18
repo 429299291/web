@@ -5,9 +5,7 @@
     </div>
 </template>
 <script>
-    import echarts from "echarts";
-    import chinaJSON from "echarts/map/json/china.json";
-    import 'echarts/map/js/china.js';
+    import chinaJSON from "../../public/json/china.json";
     echarts.registerMap("China", chinaJSON);
     export default {
         name: "data_global",
@@ -276,6 +274,7 @@
                                 };
                             })
                         });
+                        console.log(series)
             });
             option = {
                 backgroundColor: '#404a59',
@@ -414,11 +413,5 @@
             -o-transform: rotate(45deg);
             box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
         }
-    }
-
-    abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
-        margin: 0;
-        padding: 0;
-        cursor: url('https://lh3.googleusercontent.com/Qxf09ahLbsbe3MEmK1v57EpTUHyZWWXsbh5equM3i6Enw89V_KrYCquRkT_conJFJHoZ7exSFh66Fe6G6OSHuQuy1S6KW2Qxq2HRKB78YADKD6nAMkQlOXnNhCS8sHney-nfNXoemdKJVDkqvaTGwp8dvFmfZnOSS6vIWSkRGD_kMK7wBRy1q4WlCoL_tlOUrlI59V9H0bTaFlXKQ9-7eOfOMG01JdRT4fzEH3dFTcfG0hqU7m9Tm5ov0vus127x0VZ72cqeU74EWjrNet042CA97JYETMrB1tqIPhPPdQRR-4sooOSvXKeQq3whtHT4LbvGN4p_CqH4Qax-eQ6ePj80U0cODrz8umk8Yg9gOByOWMypZLiFjQASi3CymRz7UFIZVLg02PojqP7qsxCv-GLGtOBRlluk4Q64YbRGyHOtW0_F6rSMeAQQ2zIVhszBXuhepszaUlLMxxc_1qH_gi-JG-ffFdy8d9vF1l3Qzv4LlgIYJXw3Pov9z_Bwl-Mv0mUxU7iNK_jN_82DNtOAImxuerEmv_iCr82ETWwFkf-XYEVMeyrIWtz5_zXzNq2r71pkDQSNF9X2--RgOZRuWQnSziWOi1Q0SBON2dUikZRJy-CBLGLAH-_h4J0jkqMxNFrzDnonLgvzzQcqf6TdurE=w22-h28-no'), auto;
     }
 </style>

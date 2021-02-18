@@ -34,6 +34,7 @@
         <el-menu-item index="/data" class="pointer">base</el-menu-item>
         <el-menu-item index="/data_global" class="pointer">map</el-menu-item>
         <el-menu-item index="/data_3d" class="pointer">3D data</el-menu-item>
+        <el-menu-item index="/data_3dshow" class="pointer">3D show</el-menu-item>
       </el-submenu>
     
       <div class="contact">
