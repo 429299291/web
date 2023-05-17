@@ -1,6 +1,6 @@
 <template>
   <div class="index">
-      <div id='stars'></div>
+  <div id='stars'></div>
   <div id='stars2'></div>
   <div id='stars3'></div>
     <div id='title' data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="2000" data-aos-delay="500">

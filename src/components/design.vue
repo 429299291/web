@@ -5,7 +5,7 @@
   <div class="text">
     <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">产品定位，原型，设计，交互，开发，部署，SEO，维护...</h1>
     <p data-aos="fade-up" data-aos-duration="3000">说这么多，你还是没内容啊 (╥╯^╰╥)</p>
-    <p data-aos="fade-up" data-aos-duration="3000" class="p2">先养个域名呗</p>
+    <p data-aos="fade-up" data-aos-duration="3000" class="p2">这个版本是多年前写的，新版网站还在开发中</p>
   </div>
 
 </div>

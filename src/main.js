@@ -1,11 +1,13 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-// import Vue from 'vue'
+import Vue from 'vue'
 import App from './App'
 import vueRouter from 'vue-router'
 import Routes from './routes.js'
 import BaiduMap from 'vue-baidu-map'
 import {store} from './store/store.js'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 Vue.prototype.$store = store
 import axios from 'axios'
 Vue.prototype.$axios = axios
@@ -26,9 +28,9 @@ Vue.use(VueLazyload, {
   attempt: 3
 })
 
-// import ElementUI from 'element-ui';
-// import 'element-ui/lib/theme-chalk/index.css';
-// Vue.use(ElementUI);
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI);
 
 // const store = new Vuex.Store({
 //   state: {
@@ -44,7 +46,7 @@ Vue.use(VueLazyload, {
 
 AOS.init({
   // Global settings:
-  disable: window.innerWidth < 1024, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  // disable: window.innerWidth < 1024, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
   startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
   initClassName: 'aos-init', // class applied after initialization
   animatedClassName: 'aos-animate', // class applied on animation

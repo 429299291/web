@@ -20,9 +20,9 @@
         <el-menu-item index="/web" class="pointer">前端开发</el-menu-item>
         <el-menu-item index="1-3" disabled="">小程序</el-menu-item>
         <el-menu-item index="/seo" class="pointer">SEO</el-menu-item>
-        <el-menu-item class="pointer"><a class="header_a" href="https://test.zhudd.vip">Node后端</a></el-menu-item>
-        <el-menu-item index="/mongoDB" class="pointer"><a class="header_a" href="https://test.zhudd.vip">mongo数据库</a></el-menu-item>
-        <el-menu-item index="/python" class="pointer">python</el-menu-item>
+        <el-menu-item class="pointer" disabled><a class="header_a">Node后端</a></el-menu-item>
+        <el-menu-item index="/mongoDB" disabled class="pointer"><a class="header_a">mongo数据库</a></el-menu-item>
+        <el-menu-item index="/python" class="pointer">golang</el-menu-item>
       </el-submenu>
       <!-- <el-menu-item index="/news" class="tree">深度书本</el-menu-item> -->
       <el-submenu index="3" class="tree">
